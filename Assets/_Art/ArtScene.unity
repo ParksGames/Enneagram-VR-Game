@@ -3275,6 +3275,34 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6948570857614643010, guid: f9a6eb33d0a0f7148b04d1daa40e0493, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.83366543
+      objectReference: {fileID: 0}
+    - target: {fileID: 6948570857614643010, guid: f9a6eb33d0a0f7148b04d1daa40e0493, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.01501794
+      objectReference: {fileID: 0}
+    - target: {fileID: 6948570857614643010, guid: f9a6eb33d0a0f7148b04d1daa40e0493, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.08097946
+      objectReference: {fileID: 0}
+    - target: {fileID: 6948570857614643010, guid: f9a6eb33d0a0f7148b04d1daa40e0493, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.546094
+      objectReference: {fileID: 0}
+    - target: {fileID: 6948570857614643010, guid: f9a6eb33d0a0f7148b04d1daa40e0493, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 6.516
+      objectReference: {fileID: 0}
+    - target: {fileID: 6948570857614643010, guid: f9a6eb33d0a0f7148b04d1daa40e0493, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -6.857
+      objectReference: {fileID: 0}
+    - target: {fileID: 6948570857614643010, guid: f9a6eb33d0a0f7148b04d1daa40e0493, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 66.063
+      objectReference: {fileID: 0}
     - target: {fileID: 6964443175202842318, guid: f9a6eb33d0a0f7148b04d1daa40e0493, type: 3}
       propertyPath: XROrigin
       value: 
@@ -4120,6 +4148,9 @@ MonoBehaviour:
   SacredTrustVideoClip: {fileID: 32900000, guid: 1b3005b18e2b17e428c88fe83cf93ab8, type: 3}
   InteractionSpaceTeleportLocation: {fileID: 1501902380}
   XROrigin: {fileID: 853818976}
+  XRCamera: {fileID: 0}
+  LeftNearFarInteractor: {fileID: 0}
+  RightNearFarInteractor: {fileID: 0}
   VideoMeshRenderer: {fileID: 244058523}
 --- !u!4 &1859971799
 Transform:
@@ -4856,6 +4887,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 150264905200682688, guid: 1c6d05796ead9e54d8c8d6d2789be205, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70710677
+      objectReference: {fileID: 0}
+    - target: {fileID: 150264905200682688, guid: 1c6d05796ead9e54d8c8d6d2789be205, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 150264905200682688, guid: 1c6d05796ead9e54d8c8d6d2789be205, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
     - target: {fileID: 4151131679643078214, guid: 1c6d05796ead9e54d8c8d6d2789be205, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1515
