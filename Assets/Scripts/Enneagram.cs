@@ -1,5 +1,8 @@
 using UnityEngine;
 using UnityEngine.Video;
+using UnityEngine.XR.Interaction.Toolkit.Interactables;
+using UnityEngine.XR.Interaction.Toolkit.Interactors;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public enum Sacred_Type
 {
@@ -24,6 +27,13 @@ public class Enneagram : MonoBehaviour
     public Transform InteractionSpaceTeleportLocation;
     [SerializeField]
     public GameObject XROrigin;
+    [SerializeField]
+    public Camera XRCamera;
+
+    [SerializeField]
+    public NearFarInteractor LeftNearFarInteractor;
+    [SerializeField]
+    public NearFarInteractor RightNearFarInteractor;
 
     [SerializeField]
     public MeshRenderer VideoMeshRenderer;
