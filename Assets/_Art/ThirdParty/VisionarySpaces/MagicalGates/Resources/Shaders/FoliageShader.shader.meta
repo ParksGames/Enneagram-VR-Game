@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 646035390eafd1c46bfca28b70273c5c
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221132
+  packageName: Magical Gates
+  packageVersion: 1.0
+  assetPath: Assets/VisionarySpaces/MagicalGates/Resources/Shaders/FoliageShader.shader
+  uploadId: 497781
