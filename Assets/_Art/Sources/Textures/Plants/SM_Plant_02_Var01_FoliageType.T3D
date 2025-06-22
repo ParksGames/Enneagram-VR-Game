@@ -1,0 +1,9 @@
+Begin Object Class=/Script/Foliage.FoliageType_InstancedStaticMesh Name="SM_Plant_02_Var01_FoliageType" ExportPath="/Script/Foliage.FoliageType_InstancedStaticMesh'/Game/Medieval_Environment/Real_Landscape/Default/Meshes/Plants/SM_Plant_02_Var01_FoliageType.SM_Plant_02_Var01_FoliageType'"
+   Mesh="/Script/Engine.StaticMesh'/Game/Medieval_Environment/Real_Landscape/Default/Meshes/Plants/SM_Plant_02_Var01.SM_Plant_02_Var01'"
+   UpdateGuid=FABF8D8645B6FC1B72B4169AD28D5A14
+   Density=50.000000
+   MeshBounds=(Origin=(X=5.268286,Y=1.263531,Z=9.596784),BoxExtent=(X=36.195408,Y=34.073242,Z=12.103239),SphereRadius=42.117065)
+   LowBoundOriginRadius=(X=8.008106,Y=-0.026533,Z=45.866619)
+   ScaleCurve=(EditorCurveData=())
+   DensityFalloff=(FalloffCurve=(EditorCurveData=()))
+End Object

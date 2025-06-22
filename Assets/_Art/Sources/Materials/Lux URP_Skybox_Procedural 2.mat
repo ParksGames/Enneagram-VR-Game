@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Lux URP_Skybox_Procedural 2
+  m_Shader: {fileID: 108, guid: 0000000000000000f000000000000000, type: 0}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _MAPPING_LATITUDE_LONGITUDE_LAYOUT
+  - _SUNDISK_NONE
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BackTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DownTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FrontTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LeftTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 5e682c13cfbf2f14a8c0664104069629, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RightTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _UpTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AtmosphereThickness: 0.91
+    - _EnableScattering: 0
+    - _Exponent1: 1
+    - _Exponent2: 1
+    - _Exposure: 0.32
+    - _FallOff: 1
+    - _FogDensity: 0
+    - _FogEnd: 30
+    - _FogStart: 10
+    - _ImageType: 0
+    - _Intensity: 1
+    - _Layout: 0
+    - _Mapping: 1
+    - _MieSize: 10.07
+    - _MirrorOnBack: 0
+    - _Pitch: 0
+    - _Rotation: 0
+    - _ScatteringSize: 2
+    - _SunDisk: 0
+    - _SunSize: 0.045
+    - _SunSizeConvergence: 8.12
+    - _Yaw: 0
+    m_Colors:
+    - _Color1: {r: 1, g: 1, b: 1, a: 0}
+    - _Color2: {r: 1, g: 1, b: 1, a: 0}
+    - _Color3: {r: 1, g: 1, b: 1, a: 0}
+    - _GroundColor: {r: 0.57951474, g: 0.41124535, b: 0.22102778, a: 1}
+    - _MieTint: {r: 0.9433962, g: 0.748097, b: 0.52954787, a: 0.5}
+    - _ScatteringTint: {r: 0.6132076, g: 0.47640127, b: 0.25743148, a: 0.5}
+    - _SkyTint: {r: 0.41177037, g: 0.7009638, b: 0.70889485, a: 1}
+    - _Tint: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+    - _TopColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
