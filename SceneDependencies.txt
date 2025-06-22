@@ -1,0 +1,300 @@
+4947ae94b6076894c9aefc73cae3a46b	Assets/_Art/ThirdParty/VarietyFX/Textures/Lava/iron_globe01.png
+99685157b02e4d446bbecb015645e5e8	Assets/Samples/XR Interaction Toolkit/3.1.1/Starter Assets/Materials/Controller_Grey.mat
+f5a6ce7f0addb8046a0b0c9d7b50a520	Assets/_Art/ThirdParty/VisionarySpaces/MagicalGates/Resources/Textures/Particles/Ring.png
+6087e8945b38b0c458f8eaaa4e6e18f6	Assets/Materials/Footprint_Highlight_Material_2.mat
+433377a319b753f4b83f80c25e94f240	Assets/Shader/Unlit_Fresnel.shadergraph
+9e24837742d447b4aa9e8b4fae51d5ec	Assets/_Art/Sources/Textures/Plains_Floors/T_Plains_FloorsTrim_D.PNG
+d87b097c4c0deb44ba8c1ca40597c3cd	Assets/_Art/Prefabs/MagicFieldYellow.prefab
+018cdf836b1279b46a93134409a3a546	Assets/_Art/ThirdParty/VarietyFX/Materials/Common/Fire2.mat
+6e612985df8380a40a389ce0cd840e5a	Assets/_Art/ThirdParty/VisionarySpaces/MagicalGates/Prefabs/Particles/PortalParticle_02_Base.prefab
+36799f020d885eb4abb46cc9131a2e3f	Assets/_Art/ArtScene/LightingData.asset
+48befaa68c23467439dddf088ac9f055	Assets/_Art/Sources/Models/SM_vines_06.FBX
+c9e065ae16496104d92472b455de66ce	Assets/_Art/Sources/Textures/SandStone/SandStone_BaseColor.png
+f6152273e3700d540b2d15df8615134b	Assets/_Art/Sources/Models/SM_Mountain_Eroded_03.FBX
+21b7c0feceb2bd14d96ca4c49a2a776b	Assets/VRTemplateAssets/Materials/UI/VideoTexture.mat
+ae78b0da6664c8448a9faf68c01f1128	Assets/_Art/Prefabs/PF_Tree_Tropic_02.prefab
+cd2f8ba3c8425b34cb0e5be4f6e92749	Assets/Materials/Medieval-Village/T_WoodTrim_BaseColor.png
+ebfa13455423c254e943b87bf6e1f310	Assets/Samples/XR Interaction Toolkit/3.1.1/Starter Assets/Animations/ArrowBounce.anim
+49f45eb974a98c54c8930d1929c962bd	Assets/_Art/Sources/Shaders/Terrain Shadergraph/Examples/Textures/Desert_Cliff_Large.jpg
+8744ae845a77d234db5bcff3a7925c79	Assets/_Art/Sources/Shaders/Terrain Shadergraph/Examples/Textures/Ice_Peak_Large.jpg
+506f4d7a72a30824491c259855732535	Assets/_Art/Sources/Shaders/Terrain Shadergraph/Examples/Textures/Ice_Ground_Large.jpg
+23b2c39292e53b9448992f5e820bf7b8	Assets/_Art/Prefabs/SM_TreeBranch_03a 3.prefab
+058af6ff25f54c447bfc2224626af46c	Assets/_Art/Sources/Models/SM_vines_05.FBX
+76618f7490c40334fa7b685859587d2e	Assets/Samples/XR Interaction Toolkit/3.1.1/Starter Assets/Materials/Interactable.mat
+6307a872130197142866fa9afc14e53e	Assets/_Art/Sources/Models/Tree_04.fbx
+8ff47b32da29a654d9528d4dcfc8dcff	Assets/_Art/Sources/Models/SM_Plains_Floors_Brick01.FBX
+f8add952465581147827541957dfed74	Assets/_Art/Sources/Materials/Procedural Stochastic Texturing Simple.mat
+e9f926e9bbc6b3149869d0f7ecdf53a3	Assets/VRTemplateAssets/Scripts/VideoPlayerRenderTexture.cs
+7eaf7cb38e11b3a4db9e9e2e5ec60c49	Assets/Materials/Stylized-Nature/Bark_TwistedTree.mat
+d14b106713a74b448bcab90869f1706e	Assets/VRTemplateAssets/Audio/Button_22_click.wav
+308e553a160b4ef4c8d7a6531b5ea398	Assets/_Art/Sources/Textures/Trunk2D_03.png
+14185c0af664b8c4e99f8a026d600b00	Assets/_Art/Sources/Materials/MI_Flower_01.mat
+d5f7ff4f2879efb49a119afb9c91c8ec	Assets/_Art/ThirdParty/VarietyFX/Prefabs/Ground/Fire/Big/FireBigYellow.prefab
+2c085349241ea7844ab1673d2f4ff141	Assets/_Art/Sources/Models/SM_Tree_Tropic_02_novines.FBX
+0aa8cf65c0cd6cb4eb48aa7c5e088927	Assets/_Art/Prefabs/SM_TreeBranch_03a 1.prefab
+2ed3d41b7c655bf4daa77f71b994f6ed	Assets/_Art/ThirdParty/IgniteCoders/Simple Water Shader/Resources/WaterSurface_atlas.tif
+c19613a4b1ae7e84aa4e2dd992ede254	Assets/Meshes/Tree-With-Hole 1.fbx
+8b391259d1559f6478f936a01c0439b3	Assets/Materials/Stylized-Nature/Leaf_Pine_C.mat
+28ab0ca2aaa07314cb3e650ae243d2bb	Assets/_Art/Sources/Models/SM_vines_04.FBX
+03a80c5723d6c8745a1caba8d98848b7	Assets/_Art/ThirdParty/VarietyFX/Materials/Smoke/SmokeFog.mat
+51e1bd409901ec2479687baf7309769e	Assets/Themes/EdgeColorAffordanceTheme.asset
+8c164f19bf7a44523bf722faacadb096	Assets/_Art/ThirdParty/Lux URP Essentials/Demos/Art Assets/Terrains/Sources/Textures/Desert Cliff Eroded/T Desert Cliff Eroded AS.psd
+86804a8978526ba4d9793dcf6875066c	Assets/_Art/ThirdParty/VarietyFX/Materials/Smoke/SmokeWispy.mat
+1b3005b18e2b17e428c88fe83cf93ab8	Assets/Videos/sacred_trust.mp4
+1b837df3e3aa6a341b57ca81c186b713	Assets/_Art/Sources/Textures/Trunk2D_01.png
+09c10f225a07ed74d85f0af4d0bf0193	Assets/_Art/Sources/Models/SM_Fern_01.FBX
+9b1e8c997df241c1a67045eeac79b41b	Assets/Samples/XR Interaction Toolkit/3.1.1/Starter Assets/Scripts/DynamicMoveProvider.cs
+3cbf02888126c40c9b1d037b82f139c9	Assets/_Art/ThirdParty/LUT Pack/Ambient/Calm.png
+013dce465c812274db1fe24fc0b2ce35	Assets/_Art/Prefabs/PF_WeepingWillow01.prefab
+c1800acf6366418a9b5f610249000331	Assets/Samples/XR Interaction Toolkit/3.1.1/Starter Assets/Prefabs/Interactors/Teleport Interactor.prefab
+91ff3830fc4055a4fb0d0d2be32101a7	Assets/Samples/XR Interaction Toolkit/3.1.1/Starter Assets/Materials/Flat Blue.mat
+a16be22efeec4d14db00962c6a36f386	Assets/Themes/TransparentEdgeColorAffordanceTheme.asset
+e58ebee1eb8c0044084cbe306e70f6bc	Assets/_Art/Sources/Materials/M_DecalSand.mat
+b84cd05e1160fe34cab2585022c8cd99	Assets/Samples/XR Interaction Toolkit/3.1.1/Starter Assets/Prefabs/Interactors/Gaze Interactor.prefab
+fa1d5a3cbceaeb54db449929eae88b69	Assets/_Art/Sources/Materials/M_DecalSand 1.mat
+5e65a404a62996c44ba7105aabaed870	Assets/_Art/Sources/Materials/MI_Tree_Tropic_01_TR.mat
+6efb289446f541746ab6890c60c4ce10	Assets/_Art/Sources/Models/SM_vines_09.FBX
+fc986ca2925ff434284d556263a08dc5	Assets/Materials/Stylized-Nature/Bark_TwistedTree.png
+e766f86cb7d2461683eb37d8a971fb14	Assets/Samples/XR Interaction Toolkit/3.1.1/Starter Assets/Scripts/ClimbTeleportDestinationIndicator.cs
+8a5a9d8b951a6b947bde724574600f5c	Assets/_Art/ThirdParty/VarietyFX/Materials/Common/AuroraRaySoft.mat
+d771f7709ddd21f43a8d6ea0573d4f88	Assets/Epic Toon FX/Textures/magic_orb2.png
+a1d2778613e8ec7468d562f7e464e6da	Assets/_Art/Sources/Materials/M_Log_01.mat
+0f3e54927244f4f4b82c34b078a714ae	Assets/_Art/Sources/Textures/Tree_01/MI_TreeBranch_01_BaseColor_0.png
+97cbe49b59c4b654ab42318906802e35	Assets/Materials/Portal_Center_Material_Pink.mat
+22e4f10f80bb542e986e8dd00e053c34	Assets/_Art/ThirdParty/Lux URP Essentials/Demos/Art Assets/Rocks/PF Desert Rock Big.prefab
+234a92274ddd27443884c8da81156e2d	Assets/_Art/Sources/Shaders/Terrain Shadergraph/Examples/Textures/Ice_Mountain_Large.jpg
+58ce09e938a010a479c110fccefc7939	Assets/_Art/Sources/Textures/Foliage/T_Fern_01_FO_D.PNG
+4ca4aa98423aa3c47af6fcc6b4d8eda7	Assets/_Art/Sources/Materials/T_Plains_Terrain_Floors01_D.mat
+1c6d05796ead9e54d8c8d6d2789be205	Assets/_Art/Prefabs/PortalTrees_Scene.prefab
+a556985c8c8fbff4b871b33c16a10f72	Assets/_Art/ThirdParty/VarietyFX/Prefabs/Ground/Dust/DustSlow.prefab
+ad0965b546b34b740a979700daf7fff8	Assets/_Art/ThirdParty/VarietyFX/Textures/Smoke/wispy_smoke.png
+507bf59757b7d1240aec7b9d8722a61e	Assets/_Art/Sources/Textures/Log_01/Log_01_AT_.png
+2458b8c0721b4e4449bbc9ba5e6e70db	Assets/Materials/Portal_Material 1.mat
+a4af826785d23154ab446ffc76a6c861	Assets/_Art/Sources/Materials/Leaves_TwistedTree-Near-White 1.mat
+5406eca0284f893408485c2189eb937a	Assets/_Art/ThirdParty/Lana Studio/Environment VFX pack/Models/Leavs.fbx
+101c7c8813b302549af551deb56d68c9	Assets/_Art/Sources/Materials/MI_TreeBark02_1.mat
+c08c87dfe7eb755459530096e736f63b	Assets/_Art/Sources/Textures/Plants/MI_Fern_01_Normal_0.png
+1e1561d4b6abcb3439826647480d5a2a	Assets/Epic Toon FX/Textures/slash_circle01.png
+29a4f6d0b942403448010a61786f4c99	Assets/Meshes/Footprints.fbx
+7478f56001703594a976a9a099d3ba14	Assets/Materials/Stylized-Nature/Bark_NormalTree_Normal.png
+27b7629e54b332449bfa3a4065ffe17a	Assets/Samples/XR Interaction Toolkit/3.1.1/Starter Assets/Models/BlinkVisual.fbx
+6ef0e4723b64c884699a375196c13ac0	Assets/Samples/XR Interaction Toolkit/3.1.1/Starter Assets/Scripts/GazeInputManager.cs
+199232608701ddb429567c7b5b4b7de5	Assets/_Art/Sources/Shaders/Terrain Shadergraph/Examples/Textures/Grasslands_Mountain_Small.jpg
+e6348a0ab37ffff43a011f1c33a07385	Assets/Materials/Stylized-Nature/Bark_TwistedTree 1.mat
+6becd61d270b5dd4abb024bf3ec74083	Assets/_Art/ThirdParty/VarietyFX/Prefabs/Sky/Stars/StarGalaxy.prefab
+8f944bb65a5d8d048bd35a9e261fea50	Assets/Meshes/Stylized-Nature/Pine_1.fbx
+f7b0cff9343d8d74b9240cbd3e0bf41d	Assets/_Art/ThirdParty/VarietyFX/Textures/Smoke/smoke_cloudy.png
+7ec550484530f6644a6cbae4a71f07f3	Assets/_Art/Sources/Textures/Tree_Tropic/MI_Tree_Tropic_01_TR_BaseColor_0.png
+a39051f6405e5664ab155f3612efedb4	Assets/_Art/ThirdParty/VisionarySpaces/MagicalGates/Prefabs/Particles/PortalParticle_02_Yellow.prefab
+9dba73926cf169047a9487057fbdd57a	Assets/_Art/ThirdParty/VarietyFX/Prefabs/Sky/Aurora/Aurora.prefab
+b1c386f68a0c30846a03b003136ffbda	Assets/Scripts/Walk_Marker.cs
+1bafc7aca6a15ce4a92553883cdf5612	Assets/Epic Toon FX/Materials/Misc/Magic/magic_orb2_ADD.mat
+27024f5809f4a4347b9cd7f26a1bdf93	Assets/Samples/XR Interaction Toolkit/3.1.1/Starter Assets/Prefabs/Interactors/Poke Interactor.prefab
+f57552333060b8c4da8e314f2f4f6f06	Assets/_Art/Sources/Models/SM_vines_12.FBX
+ac287c737cadf894b993f4f083ad23e6	Assets/_Art/Sources/Materials/Lux URP_Skybox_Procedural 1.mat
+23139a19444e634419fbabe70d7b5b80	Assets/_Art/Sources/Models/SM_WeepingWillow01.FBX
+73ad0507d64195e45b5396a0ff3cc312	Assets/_Art/Sources/Textures/Trunk2D_02.png
+1d20d79e28a81fe4081e4bf8452305b0	Assets/_Art/ThirdParty/VarietyFX/Textures/Misc/godray01.png
+09c25d130b6a7cd4d9f62c20a5f335cd	Assets/_Art/Sources/Models/Log_01.fbx
+7ff7c5a889abf5146b75489d9d50a7d5	Assets/_Art/ThirdParty/VisionarySpaces/MagicalGates/Resources/Materials/Particles/Glow.mat
+ceb86a32224dc234d8c721b83a2c6821	Assets/Epic Toon FX/Models/ETFX_Shield.FBX
+fa84863c037667f42aed89d21e2263c2	Assets/Scripts/Tree_Door.cs
+3d46947783053dc4ab349cd12c2213e8	Assets/Meshes/Stylized-Nature/Pine_5.fbx
+32663496de8090048a0012e21437ea39	Assets/_Art/ThirdParty/VisionarySpaces/MagicalGates/Resources/Materials/Particles/Circle.mat
+37b79ec12ade7d54eb19bc7371d1fb8d	Assets/_Art/Sources/Textures/glow 1.png
+8415c5afe497f444f9e2922088ce2d4e	Assets/_Art/Sources/Models/SM_vines_03.FBX
+ba58949a021249a47bb3d56abc7d5de8	Assets/_Art/Sources/Materials/M_Emissive.mat
+fd3c5d8fce991e04f9c11109dde95b3b	Assets/Samples/XR Interaction Toolkit/3.1.1/Starter Assets/Materials/Telport Anchor.mat
+63209ce4a8ee948edbcc443d3479e530	Assets/_Art/ThirdParty/Lux URP Essentials/Core/Shaders/Projection/Lux URP Projection Top Down.shader
+ff63ad50c01b66f449532e649b0c1375	Assets/_Art/ThirdParty/VisionarySpaces/MagicalGates/Resources/Textures/Particles/Glow.png
+6c39e9872d916f541a4bd95ab6fc9e00	Assets/_Art/ThirdParty/Lana Studio/Environment VFX pack/Materials/Alpha_Blended.mat
+64f13eb4d14d52f45a75c9e741dbbf8e	Assets/Epic Toon FX/Textures/magic_line.png
+d80b70cba87dee347bc1399f4d46d89e	Assets/_Art/Sources/Textures/Landscape/T_Ground_Clovers_Near_01_BC.PNG
+52b910b6a8a1bd3449a6c08e24729f71	Assets/_Art/Prefabs/SM_Plains_Floors_Brick01.prefab
+74e79ba491127c142827728a4c8d8a63	Assets/Materials/Stylized-Nature/Bark_TwistedTree 1.png
+475ffc0c39b88eb4497de108f674396f	Assets/Materials/Medieval-Village/T_WoodTrim_Interactable.mat
+7d1f68639b8724542a7c84135f654aa8	Assets/_Art/Sources/Models/2sidedBranch_03.FBX
+1d412e84851121b4fa1310b0c8ea0d05	Assets/_Art/Sources/Materials/MI_Flower_02.mat
+603d1b0e4d5524d4fb66b4ec5afe5abf	Assets/_Art/Prefabs/SM_TreeBranch_03a 2.prefab
+147ae308eec018b40a7b312ae58f44c7	Assets/Samples/XR Interaction Toolkit/3.1.1/Starter Assets/Models/UniversalController.fbx
+ae1968658b9687b47976fe86c062168f	Assets/Samples/XR Interaction Toolkit/3.1.1/Starter Assets/Prefabs/Teleport/Climb Teleport Arrow.prefab
+a853886b538728a438789235cd41564e	Assets/_Art/Sources/Models/Flower_02.FBX
+5ab461aacd22f77469478d890de35d53	Assets/_Art/Sources/Materials/MI_Mountain_Eroded_03.mat
+2e498d1c8094910479dc3e1b768306a4	Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+2dcfc59bd0063854eac4e0704a3909f6	Assets/_Art/ArtScene/ReflectionProbe-0.exr
+0e7c5897f210a7149b2e7dff2bdcebb9	Assets/_Art/Sources/Models/Ring_02.fbx
+24ce3ac5af23d7941abe18492ab92509	Assets/_Art/Sources/Textures/MI_Flower_01_BaseColor_0.png
+cd7ed0777cb39904d94c802a38ba2a0b	Assets/_Art/Sources/Models/Ring_02_Pedestal.fbx
+4a5f76f9ea8c80547973ab01877f9567	Assets/Samples/XR Interaction Toolkit/3.1.1/Starter Assets/Scripts/ControllerAnimator.cs
+eb3a555db8a5650438cef3edf91cc9b7	Assets/_Art/Sources/Materials/MI_Plate_Rock.mat
+29b8b6aa30d46964ca02db5680e14652	Assets/_Art/Prefabs/PF_Tree_04.prefab
+8249e5f7adcbe4340a69074548f8e0c2	Assets/Meshes/Portal 1.fbx
+541032c2a1e164f2895eb9d9922fc3f1	Assets/_Art/ThirdParty/Lux URP Essentials/Demos/Art Assets/Terrains/Sources/Textures/Desert Cliff Eroded/T Desert Cliff Eroded N.psd
+8e068279d42b0fc42ab1e22a115af4a3	Assets/_Art/Sources/Models/SM_vines_01.FBX
+2531a800058d17a4d9aeacc05d499e2a	Assets/_Art/ThirdParty/VarietyFX/Textures/Smoke/smoke_shadowed_big.png
+162c7e0eb9b5c98498528ee5c186b0d7	Assets/_Art/Sources/Models/Ground.fbx
+8bf102806f9aae1469c266eb86865dbc	Assets/_Art/ThirdParty/VarietyFX/Prefabs/Ground/Insects/Fireflies/FireflySwarm.prefab
+b746725e77ac0cc46bf96e46ed1ff208	Assets/_Art/Prefabs/PF_Screen.prefab
+81168f93f935a654dbf806e5276bcfcc	Assets/Videos/sacred_connection.mp4
+6eec3a0a8eecbad4ca3eaab1ca3b793c	Assets/_Art/ThirdParty/VarietyFX/Prefabs/Sky/Godrays/GodraysYellow.prefab
+9f7aab24794bac84daf6bc6d3e376a97	Assets/_Art/ThirdParty/VarietyFX/Materials/Common/Spark_White.mat
+a3fde713df4d99042a0403c4be9eea32	Assets/Samples/XR Interaction Toolkit/3.1.1/Starter Assets/Prefabs/Teleport/Blocking Teleport Reticle.prefab
+10a677fd5431a434f89f9b3f533c2745	Assets/_Art/Sources/Models/Ivy.fbx
+2769992c86e84b944b8f740a0abe5614	Assets/_Art/Sources/Textures/MI_Flower_01_EmissiveColor_0.png
+41ccc4e44985e184ab0af82aaa4f534c	Assets/_Art/Sources/Models/SM_TreeBranch_03a.FBX
+e3265ab4bf004d28a9537516768c1c75	Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+7b11b618646b31e499ef4bc1b5d1e939	Assets/_Art/Sources/Models/2sidedBranch_02.FBX
+813749968d245ba40ab8e61ba974490b	Assets/_Art/ThirdParty/VisionarySpaces/MagicalGates/Resources/Textures/Particles/circle.png
+283f8e266ade08c4ba6772dbd6c218bf	Assets/Materials/cartoon_green_texture_grass.jpg
+0f906c94e2aa0c3488832acc1db04295	Assets/Samples/XR Interaction Toolkit/3.1.1/Starter Assets/Filters/AnyGazedAtTeleportAnchorFilter.asset
+0927d29e476ce5843b1f7d2a96943c51	Assets/Samples/XR Interaction Toolkit/3.1.1/Starter Assets/Shaders/Interactable.shadergraph
+eb9185ceee9077c4583a5c73e35d2b65	Assets/Materials/Stylized-Nature/Bark_TwistedTree 2.mat
+33b7352bc572c284aa16f8626f6be79d	Assets/_Art/Sources/Models/Screen_01.fbx
+d08d0945dbe1aac4daf6cf8746959b58	Assets/_Art/Prefabs/PF_Log_01.prefab
+50d1ddcdd0e31364d9e530e65ae8d93a	Assets/_Art/Sources/Materials/MI_Tree_Tropic_FO.mat
+9a7e14ae2292e4e43913af6abf3a9744	Assets/_Art/Sources/Materials/MI_Bush.mat
+4bb98b5a872664e4d91a21cdf7a972b1	Assets/_Art/ThirdParty/Lux URP Essentials/Demos/Art Assets/Rocks/PF Desert Sand Rock Large.prefab
+69d8a999565efc54e98468628ea5c115	Assets/_Art/Sources/Textures/RockMountain/RockMountain_BaseColor.png
+2511a42330a33d94fb4caa5f76cb783e	Assets/_Art/Sources/Textures/WeepingWillow/T_WeepingWillowBranch_D.PNG
+e19b5bb6cb8e91e43b1b5d81a069296f	Assets/Samples/XR Interaction Toolkit/3.1.1/Starter Assets/Shaders/Unlit_Fresnel.shadergraph
+d8f781dfb2a6346009f541e696e18bf3	Assets/_Art/ThirdParty/Lux URP Essentials/Demos/Art Assets/Terrains/Sources/Textures/Desert Sand/T Desert Sand Dune AS.psd
+0821a837c7583b3478f63401392bbb60	Assets/_Art/Sources/Textures/Plants/MI_Fern_01_BaseColor_0.png
+97d6d45ce202d854c9f7cc8b4d3a238c	Assets/_Art/ThirdParty/VarietyFX/Prefabs/Ground/Fire/Torch/FireTorchYellow.prefab
+18e5e964b6ef3ea4887f8c0a7265d7ce	Assets/Materials/Stylized-Nature/Leaf_Pine_C.png
+48d1d5a82158f9747983b95a2a078f78	Assets/Materials/Portal_Center_Material_White.mat
+c039432082031ab4b9a9d73ca69868d5	Assets/Meshes/Round-Door.fbx
+be2911572dc3afa448d24b4e97edc5f1	Assets/Samples/XR Interaction Toolkit/3.1.1/Starter Assets/Models/Reticle_Torus.fbx
+3fcd81056ff768d4e8f488b45cc08dc2	Assets/Meshes/Stylized-Nature/Pine_4.fbx
+a661e7516de55c047905f40ca76fe701	Assets/Samples/XR Interaction Toolkit/3.1.1/Starter Assets/Shaders/UI-NoZTest.shader
+7a4b3c107993a4d45bf99d0ea2e85a1b	Assets/Themes/AudioAffordanceTheme.asset
+1d0ed4eefa51a054f80de5a1bc20482d	Assets/_Art/ThirdParty/VarietyFX/Materials/Smoke/SmokeCloudy.mat
+94d9ab8d86686fb41ac8de3d098478f8	Assets/_Art/Prefabs/PF_Fern.prefab
+9e825e47a5d9e8f47b8dfe7376c91409	Assets/_Art/Sources/Shaders/Lux Procedural Texturing Simple.shadergraph
+11154d936b05e66498f68fa178c5cfbb	Assets/_Art/ThirdParty/IgniteCoders/Simple Water Shader/Resources/WaterSurface_single.tif
+b200f6587d118224eba8467281481800	Assets/Samples/XR Interaction Toolkit/3.1.1/Starter Assets/Prefabs/Interactors/Right_NearFarInteractor.prefab
+3956dedd91606d640887a6470974bb7d	Assets/_Art/Sources/Textures/Tree_Tropic/MI_Tree_Tropic_FO_BaseColor_1.png
+21a2b576bee5b0243be02964e4ccf590	Assets/_Art/Sources/Models/Rock_Flat_01.fbx
+fdb1de0ed0ffad84cb2472112eff98ab	Assets/_Art/ThirdParty/VarietyFX/Textures/Liquids/waterfall01.png
+9032982bf1793794c83075e03b9894fe	Assets/_Art/ThirdParty/Lux URP Essentials/Core/Shaders/Sky/SkyboxProceduralFogged.shader
+f18470fffcfd26641a65dafb5be2196d	Assets/_Art/ThirdParty/Lana Studio/Environment VFX pack/Textures/Circle04.png
+98a5fe99c44b15145a0d118d7a586352	Assets/_Art/Sources/Materials/Water_mat_01 1.mat
+f29c60a51fb02034ab051d47edb05648	Assets/_Art/ThirdParty/VarietyFX/Textures/Misc/godray_aurora_soft.png
+8f079397ef5fb0041b44aa8963dba5a0	Assets/_Art/Sources/Textures/Landscape/T_Ground_Grass_Far_01_BC.PNG
+5e8d81149904c944ba79d1a8276b64df	Assets/_Art/Sources/Textures/WeepingWillow/MI_TreeBark02_1_Normal_0.png
+2714989d9d9ebed4591a4205444ce5ed	Assets/_Art/Sources/Materials/M_HumanSkin.mat
+db6239f7ccb29ca4aac63126c6a35e7d	Assets/Samples/XR Interaction Toolkit/3.1.1/Starter Assets/Animations/Climb Teleport Arrow.controller
+a87f0636534cd410d8d947fd3de6a2b5	Assets/_Art/ThirdParty/Lux URP Essentials/Demos/Art Assets/Terrains/Sources/Textures/Desert Grass/T Grass AS.psd
+a52208d45ce569b48963111ef68c3dd0	Assets/_Art/Sources/Models/SM_vines_02.FBX
+97b81edd6b4085743a10254200de4259	Assets/_Art/ArtScene/Global Volume Profile.asset
+4388d2ca4d0211946be8c5c2bb998877	Assets/_Art/ThirdParty/Lana Studio/Environment VFX pack/Textures/Crows.png
+8f586378b4e144a9851e7b34d9b748ee	Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+9acac64febd68264e841fb8ccb72e1a3	Assets/Materials/Medieval-Village/T_WoodTrim_Normal.png
+49719bfd3e1ea2747933f7cd1b9a5f57	Assets/_Art/ThirdParty/VisionarySpaces/MagicalGates/Resources/Materials/Particles/Ring.mat
+d661540e34e994e258a5bd0b15491f96	Assets/_Art/ThirdParty/Lux URP Essentials/Demos/Art Assets/Rocks/Sources/M Rock Desert.mat
+d4c1363e100eadd478fb9d5053ae986c	Assets/Materials/Stylized-Nature/Bark_NormalTree.png
+89410f6191fa33a46ab406dd0f3b0331	Assets/_Art/Sources/Materials/M_Terrain 1.mat
+9fc742c782f9f7f4ca1b41985304b9b5	Assets/_Art/Prefabs/PF_Plate_Rock_4.prefab
+53237e9cefb54eb4f8af1fb1a1709ca7	Assets/_Art/ThirdParty/VarietyFX/Prefabs/Sky/Clouds/CloudsCalm.prefab
+afdca86eccaffb6489badc3c1da65cb4	Assets/_Art/Sources/Models/Ring_01.fbx
+5cddd02c7ee1f1441b146bec2474a051	Assets/_Art/Sources/Materials/MI_TreeBranch_01.mat
+85e675893a909864d9c237e20202651b	Assets/Samples/XR Interaction Toolkit/3.1.1/Starter Assets/Textures/DefaultMaterial_AO.png
+65b3d301dab07a649aff5ec9e938f121	Assets/_Art/ThirdParty/Lux URP Essentials/Core/Shader Graphs/Includes/Lux_Procedural_Texturing_Simple.hlsl
+a85d80c1edb5d2f458d42e79f78055b9	Assets/Samples/XR Interaction Toolkit/3.1.1/Starter Assets/DemoSceneAssets/Sprites/LegibilityMask.png
+9f12d299d16099343a3c5c0d7285822a	Assets/Samples/XR Interaction Toolkit/3.1.1/Starter Assets/Materials/Controller_White.mat
+c3bb1d5298b924d80959c9f822ffe414	Assets/_Art/ThirdParty/Lux URP Essentials/Core/Sources/Resources/LuxURPdefaultBump.psd
+4f8f34e15941802428bf71f46e7f70cf	Assets/_Art/ThirdParty/VarietyFX/Textures/Flare/flare_white.png
+fc690d1505c48cb4696838b71abd2ca0	Assets/Samples/XR Interaction Toolkit/3.1.1/Starter Assets/AffordanceThemes/PokeSphereColor.asset
+ba8233f9b8c121148afbc845e728d5c9	Assets/_Art/Sources/Textures/WeepingWillow/MI_TreeBark02_1_EmissiveColor_0.png
+635c7d4fca960134fa02f612020b7e89	Assets/_Art/Sources/Materials/MI_vines_01.mat
+229bc9baff2590240a51ffb14fc41343	Assets/_Art/ThirdParty/VarietyFX/Materials/Flare/FlareWhite.mat
+41b687fe5d3dc4b32a99e17735765306	Assets/_Art/ThirdParty/Lux URP Essentials/Demos/Art Assets/Terrains/Sources/Textures/Desert Cliff Eroded/T Desert Cliff Eroded MOHE.psd
+2b4a45e64d589ce4caa8bb5e5920a794	Assets/_Art/ThirdParty/VarietyFX/Models/variety_aurora2.FBX
+1392f805216c47742996d4742c80721c	Assets/Samples/XR Interaction Toolkit/3.1.1/Starter Assets/Prefabs/Controllers/XR Controller Left.prefab
+a84fb0aff36d57a47a6ebfbf666261dc	Assets/_Art/Sources/Models/SM_Plate_Rock_4_Fol.FBX
+23c6654c6c04b8945abdd3f145d778bf	Assets/_Art/Prefabs/PF_Flower_01.prefab
+2bed0e0bf0f8d7a4ebd1da5c80f9959f	Assets/Scripts/Enneagram.cs
+2a54c34f999e5f043b4a8275a91a81d5	Assets/_Art/Sources/Models/ScaleModel (1).FBX
+90b439a73d9c9dd4989e66baa643b2df	Assets/_Art/Sources/Models/SM_Plains_Floors_Block02.FBX
+e509859ea00a9ab46a7e03855a51f8e6	Assets/_Art/ThirdParty/VarietyFX/Textures/Smoke/smoke_cloudy02.png
+e053b8fbc416ba349b4a58a26410bba2	Assets/Samples/XR Interaction Toolkit/3.1.1/Starter Assets/Models/Pinch_Pointer_LOD0.fbx
+26f7910faf962274189fda61a6d9bc09	Assets/_Art/Sources/Models/SM_vines_11.FBX
+e054709a746bdb1499c619be5af7d280	Assets/_Art/Sources/Models/Flower_01.FBX
+ba6cf053b5a554242b964dd431a3104d	Assets/_Art/Sources/Textures/Log_01/Log_01_N_.png
+d6b63adf54ce03540b35d153e2610b6b	Assets/_Art/Sources/Textures/WeepingWillow/MI_TreeBark02_1_BaseColor_0.png
+91b98f14293f2e3449f383d2f9c53dbe	Assets/_Art/ThirdParty/VarietyFX/Textures/Misc/glow.png
+0e1393e3d55f41842a8c95d8474e3f63	Assets/_Art/Sources/Textures/T_Rock_Flat_D.PNG
+b6742a199b5404d1ebafa8f8a1974a24	Assets/_Art/ThirdParty/Lux URP Essentials/Demos/Art Assets/Rocks/Sources/M Rock Desert Sand Proj.mat
+deba49850fb4770448b0dfbcf8628866	Assets/_Art/ThirdParty/VarietyFX/Materials/Lava/IronGlobe01.mat
+b02ca8a32cde2ef42bc2f18d7152475b	Assets/_Art/ThirdParty/Lana Studio/Environment VFX pack/Prefabs/Birds/Birds_spin.prefab
+4a70b95dd85a06847909ab49eb3a9f2c	Assets/_Art/Prefabs/PF_Flower_02.prefab
+9f3369e30fbd31f4bb596b1a99babe83	Assets/Samples/XR Interaction Toolkit/3.1.1/Starter Assets/Prefabs/Controllers/XR Controller Right.prefab
+3df3e1220f2164f448701a6de8084f92	Assets/Samples/XR Interaction Toolkit/3.1.1/Starter Assets/Prefabs/Interactors/Left_NearFarInteractor.prefab
+017825814bcedde4abaa9ad942c576d9	Assets/_Art/Sources/Textures/WaterSurface.tif
+75c822b01a637d547abc69e6f1f590b4	Assets/Epic Toon FX/Textures/glow1.png
+390aa95262ee34465b55316dc91efca4	Assets/_Art/ThirdParty/Lux URP Essentials/Core/Shader Graphs/Sub Graphs/LuxURP Procedural Texturing Simple.shadersubgraph
+ae1fc75f8f1a7d645a97e6647de6ed6b	Assets/_Art/ThirdParty/VarietyFX/Materials/Common/Godray.mat
+89869129bf585b240afeff4fc2ebd0e9	Assets/Materials/Stylized-Nature/Leaves.png
+fb2da540ed3ec9843abc2d7289c1b0ba	Assets/_Art/Sources/Textures/T_Fol_Leafs_BC.PNG
+b862918b52425444fbf3824b87140d9f	Assets/_Art/Sources/Models/SM_vines_13.FBX
+fe393ace9b354375a9cb14cdbbc28be4	Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+2569458ee22205d46a010dbb32f645a1	Assets/_Art/ThirdParty/VarietyFX/Prefabs/Ground/Fire/Embers/BonfireEmbers.prefab
+53d129d444b934e1a8181112732d4afe	Assets/_Art/ThirdParty/Lux URP Essentials/Demos/Art Assets/Rocks/Sources/SM Rock Large.fbx
+3d28c60f55003194ebdd45bf34dbc04b	Assets/Materials/Stylized-Nature/Bark_TwistedTree_Normal.png
+f6336ac4ac8b4d34bc5072418cdc62a0	Assets/Samples/XR Interaction Toolkit/3.1.1/Starter Assets/Prefabs/XR Origin (XR Rig).prefab
+a7fdb01c01538d34cb605fd3c34578c0	Assets/Meshes/Bonfire.fbx
+8203054a7450b8e49b36166b0f6205f4	Assets/_Art/Sources/Textures/MI_Plate_Rock_BaseColor_0.png
+f5ccd52dc494e054fbe7d7161dcabe25	Assets/Samples/XR Interaction Toolkit/3.1.1/Starter Assets/Materials/FresnelHighlight.mat
+c78b5dacb6e1a8343bb1dfe2c4161830	Assets/Epic Toon FX/Materials/Misc/Magic/magic_line_ADD.mat
+5d7ee5f9251711a4eafc555f92f37e97	Assets/Videos/sacred_holding.mp4
+fc3c4fecaeded0e499bb02ec0b96a378	Assets/_Art/Prefabs/PF_Rock_Flat_01.prefab
+d73f32655e592784f82bd53004b0eb73	Assets/_Art/Sources/Textures/Tree_Tropic/MI_Tree_Tropic_FO_Normal_1.png
+6f3d696f7c3365846b6dc2402afb3d3e	Assets/Samples/XR Interaction Toolkit/3.1.1/Starter Assets/Materials/UI-NoZTest.mat
+34ee712eac30f2743aa26638ec8bbbcd	Assets/_Art/ThirdParty/VarietyFX/Textures/Fire/fire01.png
+52858658cc8f3e84b9a4fad5fdf98731	Assets/Meshes/Stylized-Nature/Fern_1.fbx
+f9ac216f0eb04754b1d938aac6380b31	Assets/Samples/XR Interaction Toolkit/3.1.1/Starter Assets/Scripts/ControllerInputActionManager.cs
+f7040fef4da76e849acb1491bb359986	Assets/Materials/Portal_Center_Material_Lime.mat
+03f3571e8cb587246a219a09cca09ebd	Assets/_Art/Sources/Textures/MI_Plate_Rock_Normal_0.png
+e4c97763869032e4e997a4478d18e1bd	Assets/_Art/ThirdParty/VarietyFX/Materials/Common/Glow.mat
+9e1bde439e2931547937102dd2351cb8	Assets/_Art/Sources/Textures/Plains_Floors/T_Plains_Terrain_Floors01_D.PNG
+bb91fcbcb3cc896468b372b1c762bfab	Assets/Samples/XR Interaction Toolkit/3.1.1/Starter Assets/Prefabs/Affordances/PokePointerAffordance.prefab
+3962bedd5840f1543a7391d91f349ba2	Assets/_Art/Sources/Materials/Rock_Flat_01.mat
+f8ecc54972abacc46a93f671b0602139	Assets/Samples/XR Interaction Toolkit/3.1.1/Starter Assets/DemoSceneAssets/Sprites/Forward.png
+403841874fe94ed45849deaac914e889	Assets/_Art/Sources/Materials/Foliage/M_Fern_01_FO.mat
+e653836c30661fe419b8992e230ca189	Assets/Epic Toon FX/Materials/Basics/glow1_ADD.mat
+bc1dff63f36ff44aca2a279226a021ac	Assets/_Art/ThirdParty/Lux URP Essentials/Demos/Art Assets/Rocks/PF Desert Rock Large.prefab
+041bad116d09d6c4a9172eae3ffb7378	Assets/_Art/ThirdParty/VarietyFX/Prefabs/Sky/Aurora/AuroraGreen.prefab
+032659d93f31b2a4f9b87c53312aa67e	Assets/Meshes/Stylized-Nature/Pine_2.fbx
+02906d1fdf59a3942bd478b6fa5770a0	Assets/_Art/Sources/Models/SM_vines_10.FBX
+893219773891c784ab469a39151879b4	Assets/Samples/XR Interaction Toolkit/3.1.1/Starter Assets/Prefabs/Teleport/Directional Teleport Reticle.prefab
+083017a33b03f4c4ea6aaa034e867f70	Assets/_Art/Sources/Textures/T_Vines_01_D.PNG
+04418dba355d744fc9ab83fb6e7a3425	Assets/_Art/ThirdParty/Lux URP Essentials/Demos/Art Assets/Rocks/PF Desert Rock Small.prefab
+c348712bda248c246b8c49b3db54643f	Assets/Samples/XR Interaction Toolkit/3.1.1/Starter Assets/XRI Default Input Actions.inputactions
+613908901a0170449bc13b23c52b0f69	Assets/_Art/ThirdParty/VarietyFX/Prefabs/Sky/Stars/StarCluster.prefab
+98bb3e5418a4db1409ccc03bdcc2e07f	Assets/_Art/Sources/Materials/T_Plains_FloorsTrim_D.mat
+dd97de70edf8a4141bee758a2efe7ff8	Assets/_Art/ThirdParty/IgniteCoders/Simple Water Shader/Resources/WaterShader.shadergraph
+8495c358ee6e10b4e966628b73e58736	Assets/Meshes/Stylized-Nature/Pine_3.fbx
+904e17805f553bd49b186b642d9e66cc	Assets/_Art/ThirdParty/VarietyFX/Models/variety_aurora3.FBX
+6149b0bc56bc41540917f17ac27bfbef	Assets/_Art/ArtScene.unity
+177c9596e47853446a0b51a6d1bb1476	Assets/_Art/ThirdParty/VarietyFX/Prefabs/Sky/Aurora/AuroraCurly.prefab
+17a4c4d7f6963da45ac1e04178f421db	Assets/Prefabs/Footprints.prefab
+00184b8c67b277146913f64668d753f5	Assets/Materials/Footprint_Highlight_Material.mat
+d1ba52bf79e32ec499a7415d65e51ecc	Assets/_Art/Prefabs/SM_Mountain_Eroded_03.prefab
+cda765b5b1b9a324a910e016d932b845	Assets/Materials/Stylized-Nature/Leaves_TwistedTree_C.png
+ce2220347da6e4dcd9cec6b81b3209a8	Assets/_Art/ThirdParty/Lux URP Essentials/Demos/Art Assets/Rocks/Sources/SM Rock Big.fbx
+9620147c1f8b6c84fb13f9e1209d9569	Assets/_Art/ThirdParty/VarietyFX/Textures/Misc/spark.png
+c2e945c5dfc5fd642b11a4f2625ae500	Assets/_Art/Sources/Models/water.fbx
+476ad69c7d4704643ac765a13b1df4e0	Assets/_Art/Sources/Materials/MI_WeepingWillowBranch01.mat
+4c24a9c7721609743894640dc0893b0e	Assets/Graphics/Lighting.lighting
+c1a0cac330c5b0648aebdea04409c4bb	Assets/_Art/ThirdParty/VarietyFX/Materials/Common/Spark_Blue.mat
+4124280326d4f8446a345efac23f94fa	Assets/_Art/Sources/Models/SM_vines_08.FBX
+b319a2e4ff8f5d840b82d8635b645d22	Assets/VRTemplateAssets/Audio/Button_14_hover.wav
+cdebec39dbf81a14688e1de8d12897b4	Assets/Samples/XR Interaction Toolkit/3.1.1/Starter Assets/DemoSceneAssets/Textures/Concrete_Normal.tif
+f9a6eb33d0a0f7148b04d1daa40e0493	Assets/Prefabs/Tree-With-Hole 1 (3).prefab
+6f4f5fce9deb0354d8601f63a18375c0	Assets/_Art/Sources/Shaders/Terrain Shadergraph/Examples/Textures/Ice_Cliff_Large.jpg
+5008a6ebd66d78942b0fcea0ea219075	Assets/Scripts/Portal.cs
+cc9df35da0bbd7d4a94f3d0ca093b089	Assets/_Art/Sources/Models/SM_vines_07.FBX
+6eb991e61c0314441bebec3f82ff5838	Assets/Epic Toon FX/Materials/Misc/Sword/slash_circle01_ADD.mat
+6ed5b956dddec40929bc9bb4e6c5cf66	Assets/_Art/ThirdParty/Lux URP Essentials/Demos/Art Assets/Terrains/Sources/Textures/Desert Sand/T Desert Sand Dune N.psd
+4ae8ae7350b67b44785d874c413a2e03	Assets/_Art/ThirdParty/IgniteCoders/Simple Water Shader/Resources/WaterReflection.renderTexture
+c47a4b00fbb3849f78963f294a7df3e3	Assets/_Art/ThirdParty/Lux URP Essentials/Demos/Art Assets/Rocks/Sources/SM Rock Small.fbx
+ea3b0edbf406c894b839ee1c0e9f65a4	Assets/Epic Toon FX/Models/Materials/sphereshield.mat
