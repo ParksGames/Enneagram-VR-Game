@@ -33,7 +33,6 @@ Material:
   stringTagMap: {}
   disabledShaderPasses:
   - MOTIONVECTORS
-  - XRMotionVectors
   m_LockedProperties: Color_93e06cd551a5449091bcde90b46765a0
   m_SavedProperties:
     serializedVersion: 3
