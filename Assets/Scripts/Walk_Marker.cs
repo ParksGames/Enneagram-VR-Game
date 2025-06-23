@@ -2,6 +2,9 @@ using UnityEngine;
 
 public class Walk_Marker : MonoBehaviour
 {
+    [SerializeField]
+    public Portal AttachedPortal;
+
     static private Walk_Marker LastHiddenMarker = null;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -33,5 +36,9 @@ public class Walk_Marker : MonoBehaviour
 
         LastHiddenMarker = this;
         LastHiddenMarker.Hide();
+
+        if (AttachedPortal != null) {
+            AttachedPortal.ShowUI();
+        }
     }
 }
