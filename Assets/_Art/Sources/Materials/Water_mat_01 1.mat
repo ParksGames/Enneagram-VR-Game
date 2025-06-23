@@ -72,15 +72,15 @@ Material:
     - Vector1_6269b1025b26473ca8bc61634f34b537: 0.87
     - Vector1_687f54e8c371429f86b9eaab0e7dfe3e: 0.46
     - Vector1_6c82dffdd68049bcb019d3a9c64c92a0: 0.012
-    - Vector1_6f56a0970372485390c6587863c2374e: 4.22
-    - Vector1_7273530c27a34c9f8ee5723b84f96baa: 0.001
+    - Vector1_6f56a0970372485390c6587863c2374e: 10
+    - Vector1_7273530c27a34c9f8ee5723b84f96baa: 0.01
     - Vector1_dada42ebfac44076897b6de67441ba32: 0.3
     - _QueueControl: 1
     - _QueueOffset: 0
     - _XRMotionVectorsPass: 0
     m_Colors:
-    - Color_36218622185947c6a5ae36366d8e21d8: {r: 0.23134452, g: 0.51437855, b: 0.73045814, a: 1}
-    - Color_93e06cd551a5449091bcde90b46765a0: {r: 0.23896575, g: 0.39489356, b: 0.42318046, a: 0.49411765}
+    - Color_36218622185947c6a5ae36366d8e21d8: {r: 0.23134449, g: 0.51437855, b: 0.73045814, a: 1}
+    - Color_93e06cd551a5449091bcde90b46765a0: {r: 0.23896572, g: 0.3948935, b: 0.42318043, a: 0.92156863}
     - Vector2_4351ac2be1d74054986ec5378db9d578: {r: 32, g: 32, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
