@@ -106,7 +106,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Grass:
-        m_Texture: {fileID: 2800000, guid: 609581868eaaf9447b1f03b502ab6e1e, type: 3}
+        m_Texture: {fileID: 2800000, guid: d80b70cba87dee347bc1399f4d46d89e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Grass_Normal:
+        m_Texture: {fileID: 2800000, guid: dd5862bb13fd35348abf3ec0096b5a4f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Ground_Texture_Detail:
@@ -198,11 +202,19 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Pepple:
-        m_Texture: {fileID: 2800000, guid: d80b70cba87dee347bc1399f4d46d89e, type: 3}
+        m_Texture: {fileID: 2800000, guid: 63d11d77e68009d4d80e52f5aae60bfb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Pepple_Normal:
+        m_Texture: {fileID: 2800000, guid: 03f3571e8cb587246a219a09cca09ebd, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Sand:
-        m_Texture: {fileID: 2800000, guid: 8f079397ef5fb0041b44aa8963dba5a0, type: 3}
+        m_Texture: {fileID: 2800000, guid: d9919e1534b624347b93787b617e4207, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Sand_Normal:
+        m_Texture: {fileID: 2800000, guid: dccaf6ef842911645be9b9e9495b7346, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Shore_Texture_Detail:
@@ -312,6 +324,7 @@ Material:
     - _EnableProcedural: 0
     - _EnvironmentReflections: 1
     - _Fade_Distance: 10
+    - _Float: 0
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
@@ -427,6 +440,6 @@ Material:
     - _SplatTiling: {r: 1, g: 1, b: 0, a: 0}
     - _TerrainPos: {r: 0, g: 0, b: 0, a: 0}
     - _TerrainSize: {r: 0.5, g: 0.5, b: 0.5, a: 0}
-    - _Tiling: {r: 512, g: 512, b: 0, a: 0}
+    - _Tiling: {r: 64, g: 64, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

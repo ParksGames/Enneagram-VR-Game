@@ -9,7 +9,7 @@ namespace Unity.VRTemplate
     [RequireComponent(typeof(VideoPlayer))]
     public class VideoPlayerRenderTexture : MonoBehaviour
     {
-        const string k_ShaderName = "Unlit/Texture";
+        const string k_ShaderName = "Pause9/ScreenMask";
 
         [SerializeField]
         [Tooltip("The target Renderer which will display the video.")]
@@ -31,10 +31,11 @@ namespace Unity.VRTemplate
         {
             var renderTexture = new RenderTexture(m_RenderTextureWidth, m_RenderTextureHeight, m_RenderTextureDepth);
             renderTexture.Create();
-            var material = new Material(Shader.Find(k_ShaderName));
-            material.mainTexture = renderTexture;
+            m_Renderer.material.mainTexture = renderTexture;
+            // var material = new Material(Shader.Find(k_ShaderName));
+            // material.mainTexture = renderTexture;
             GetComponent<VideoPlayer>().targetTexture = renderTexture;
-            m_Renderer.material = material;
+            // m_Renderer.material = material;
         }
     }
 }
