@@ -38,7 +38,7 @@ Material:
     - _SunSize: 0
     - _SunSizeConvergence: 8.12
     m_Colors:
-    - _GroundColor: {r: 0.57951474, g: 0.41124535, b: 0.22102778, a: 1}
+    - _GroundColor: {r: 0.21960783, g: 0.47828057, b: 0.5803922, a: 1}
     - _MieTint: {r: 0.9433962, g: 0.748097, b: 0.52954787, a: 0.5}
     - _ScatteringTint: {r: 0, g: 0, b: 0, a: 1}
     - _SkyTint: {r: 0.41177037, g: 0.7009638, b: 0.70889485, a: 1}
