@@ -5,62 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7f83f85-6b8d-439c-af97-0f0b7c6f6452" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Shaders/ChannelMaskProjector.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Shaders/ChannelMaskProjector.shader.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Enneagram-VR-Game-3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Enneagram-VR-Game-3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Epic Toon FX/Materials/Basics/glow1_AB.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Epic Toon FX/Materials/Basics/glow1_AB.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Epic Toon FX/Materials/Basics/glow4_ADD.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Epic Toon FX/Materials/Basics/glow4_ADD.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Epic Toon FX/Materials/Basics/solid_AB.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Epic Toon FX/Materials/Basics/solid_AB.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Epic Toon FX/Materials/Basics/triangle_soft_ADD.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Epic Toon FX/Materials/Basics/triangle_soft_ADD.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Epic Toon FX/Materials/Basics/wave3_ADD.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Epic Toon FX/Materials/Basics/wave3_ADD.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Epic Toon FX/Materials/Misc/Emojis/em_derpgasp.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Epic Toon FX/Materials/Misc/Emojis/em_derpgasp.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Epic Toon FX/Materials/Misc/Fire/candle_blurry_ADD.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Epic Toon FX/Materials/Misc/Fire/candle_blurry_ADD.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Epic Toon FX/Materials/Misc/Fire/candle_simple_ADD.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Epic Toon FX/Materials/Misc/Fire/candle_simple_ADD.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Epic Toon FX/Materials/Misc/Fire/candle_simple_colored_AB.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Epic Toon FX/Materials/Misc/Fire/candle_simple_colored_AB.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Epic Toon FX/Materials/Misc/Fire/candle_soft2_AB.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Epic Toon FX/Materials/Misc/Fire/candle_soft2_AB.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Epic Toon FX/Materials/Misc/Fire/candle_soft_AB.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Epic Toon FX/Materials/Misc/Fire/candle_soft_AB.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Epic Toon FX/Materials/Misc/Powerbox/VertexColor/power_lightning.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Epic Toon FX/Materials/Misc/Powerbox/VertexColor/power_lightning.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Epic Toon FX/Materials/Misc/Skulls/skull2_AB.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Epic Toon FX/Materials/Misc/Skulls/skull2_AB.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lux URP Essentials/Demos/Lighting Data/Lit Extended Demo/Lightmap-0_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lux URP Essentials/Demos/Lighting Data/Lit Extended Demo/Lightmap-0_comp_dir.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lux URP Essentials/Demos/Lighting Data/Lit Extended Demo/Lightmap-0_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lux URP Essentials/Demos/Lighting Data/Lit Extended Demo/Lightmap-0_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lux URP Essentials/Demos/Lighting Data/Lit Extended Demo/Lightmap-1_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lux URP Essentials/Demos/Lighting Data/Lit Extended Demo/Lightmap-1_comp_dir.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lux URP Essentials/Demos/Lighting Data/Lit Extended Demo/Lightmap-1_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lux URP Essentials/Demos/Lighting Data/Lit Extended Demo/Lightmap-1_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lux URP Essentials/Demos/Lighting Data/Volumetrics Demo/Lightmap-0_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lux URP Essentials/Demos/Lighting Data/Volumetrics Demo/Lightmap-0_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lux URP Essentials/Demos/Lighting Data/Volumetrics Demo/Lightmap-1_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lux URP Essentials/Demos/Lighting Data/Volumetrics Demo/Lightmap-1_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lux URP Essentials/Demos/Lighting Data/Volumetrics Demo/Lightmap-2_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lux URP Essentials/Demos/Lighting Data/Volumetrics Demo/Lightmap-2_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lux URP Essentials/Demos/Lighting Data/Volumetrics Demo/Lightmap-3_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lux URP Essentials/Demos/Lighting Data/Volumetrics Demo/Lightmap-3_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lux URP Essentials/Demos/Lighting Data/Volumetrics Demo/Lightmap-4_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lux URP Essentials/Demos/Lighting Data/Volumetrics Demo/Lightmap-4_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lux URP Essentials/Demos/Lighting Data/Volumetrics Demo/Lightmap-5_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lux URP Essentials/Demos/Lighting Data/Volumetrics Demo/Lightmap-5_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lux URP Essentials/Demos/Lighting Data/Volumetrics Demo/Lightmap-6_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lux URP Essentials/Demos/Lighting Data/Volumetrics Demo/Lightmap-6_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lux URP Essentials/Demos/Lighting Data/Volumetrics Demo/Lightmap-7_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lux URP Essentials/Demos/Lighting Data/Volumetrics Demo/Lightmap-7_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lux URP Essentials/Demos/Lighting Data/Volumetrics Demo/Lightmap-8_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lux URP Essentials/Demos/Lighting Data/Volumetrics Demo/Lightmap-8_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Stylized-Nature/Bark_TwistedTree 2.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Stylized-Nature/Bark_TwistedTree 2.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Stylized-Nature/Bark_TwistedTree.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Stylized-Nature/Bark_TwistedTree.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Tree-With-Hole 1 (3).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Tree-With-Hole 1 (3).prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.1/Starter Assets/Prefabs/XR Origin (XR Rig).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.1/Starter Assets/Prefabs/XR Origin (XR Rig).prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/Lightmap-0_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene/Lightmap-0_comp_dir.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/Lightmap-0_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene/Lightmap-0_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Start.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Start.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/XRI/Settings/Resources/XRDeviceSimulatorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/XRI/Settings/Resources/XRDeviceSimulatorSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Epic Toon FX/Materials/Misc/Fire/fire_ground_3x3_AB.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Epic Toon FX/Materials/Misc/Fire/fire_ground_3x3_AB.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Epic Toon FX/Materials/Misc/Fire/fire_soft_AB.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Epic Toon FX/Materials/Misc/Fire/fire_soft_AB.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Epic Toon FX/Materials/Misc/Powerbox/VertexColor/power_fire2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Epic Toon FX/Materials/Misc/Powerbox/VertexColor/power_fire2.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Epic Toon FX/Materials/Misc/Powerups/PreColored/pwr_sym_pc_fire2_AB.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Epic Toon FX/Materials/Misc/Powerups/PreColored/pwr_sym_pc_fire2_AB.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Epic Toon FX/Materials/Misc/Powerups/PreColored/pwr_sym_pc_fire_AB.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Epic Toon FX/Materials/Misc/Powerups/PreColored/pwr_sym_pc_fire_AB.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Epic Toon FX/Materials/Misc/Powerups/VertexColor/pwr_sym_fire2_AB.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Epic Toon FX/Materials/Misc/Powerups/VertexColor/pwr_sym_fire2_AB.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Epic Toon FX/Materials/Misc/Powerups/VertexColor/pwr_sym_fire_AB.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Epic Toon FX/Materials/Misc/Powerups/VertexColor/pwr_sym_fire_AB.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lux URP Essentials/Demos/Art Assets/Rocks/Sources/M Rock Desert.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lux URP Essentials/Demos/Art Assets/Rocks/Sources/M Rock Desert.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MaskTexture.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MaskTexture.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VRTemplateAssets/Materials/UI/VideoTexture.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VRTemplateAssets/Materials/UI/VideoTexture.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VRTemplateAssets/Scripts/VideoPlayerRenderTexture.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VRTemplateAssets/Scripts/VideoPlayerRenderTexture.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Art/ArtScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/ArtScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Prefabs/PF_Tree_04.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Prefabs/PF_Tree_04.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Scripts/PCGTool.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Editor/PCGTool.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Scripts/PCGTool.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Editor/PCGTool.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/Leaves_TwistedTree-Near-White 1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/Leaves_TwistedTree-Near-White 1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/Lux URP_Skybox_Procedural 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/Lux URP_Skybox_Procedural 1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/MI_Mountain_Eroded_03.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/MI_Mountain_Eroded_03.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/M_Emissive.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/M_Emissive.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/M_Terrain 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/M_Terrain 1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Prefabs/PF_Screen.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Prefabs/PF_Screen.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Prefabs/PortalTrees_Scene.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Prefabs/PortalTrees_Scene.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/Leaves_HeroTree_02.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/Leaves_HeroTree_02.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/Leaves_HeroTree_03.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/Leaves_HeroTree_03.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/M_DecalSand 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/M_DecalSand 1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/M_DecalSand.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/M_DecalSand.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/M_Terrain 2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/M_Terrain 2.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/Water_mat_01 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/Water_mat_01 1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Models/Branch_01.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Models/Branch_01.fbx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Models/Branch_02.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Models/Branch_02.fbx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Models/Branch_03.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Models/Branch_03.fbx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Models/Ground.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Models/Ground.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Models/Tree_04.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Models/Tree_04.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Models/Tree_04.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Models/Tree_04.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/ThirdParty/VarietyFX/Materials/Lightning/LightningArcs01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/ThirdParty/VarietyFX/Materials/Lightning/LightningArcs01.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Models/Screen.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Models/Screen.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Models/Screen_01.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Models/Screen_01.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Shaders/SH_Terrain.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Shaders/SH_Terrain.shadergraph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Textures/Masks/DefaultMaterial_AT_.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Textures/Masks/DefaultMaterial_AT_.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,21 +76,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "art-scene",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;art-scene&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Unity.exe" />
@@ -176,7 +152,8 @@
       <updated>1750645301654</updated>
       <workItem from="1750645303663" duration="207000" />
       <workItem from="1750645515993" duration="275000" />
-      <workItem from="1750981238341" duration="1730000" />
+      <workItem from="1750981238341" duration="4752000" />
+      <workItem from="1751065573640" duration="796000" />
     </task>
     <servers />
   </component>
