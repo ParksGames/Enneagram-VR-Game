@@ -6,6 +6,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.SceneManagement;
 using System.Collections;
 using System.Threading;
+using NUnit.Framework;
 
 /* TODO LIST:
  * 
@@ -57,6 +58,9 @@ public class Enneagram : MonoBehaviour
     [SerializeField]
     public ScreenFader ScreenFader;
 
+    [SerializeField]
+    public GameObject InteractionSpace;
+
     public static Enneagram Instance = null;
 
     [SerializeField]
@@ -68,6 +72,8 @@ public class Enneagram : MonoBehaviour
     void Start()
     {
         Instance = this;
+
+        InteractionSpace.SetActive(false);
 
         VideoMeshRenderer.enabled = false;
 
@@ -138,5 +144,7 @@ public class Enneagram : MonoBehaviour
         //Vector3 Rot = XROrigin.transform.rotation.eulerAngles;
         //Rot.y += 180;
         XROrigin.transform.rotation = InteractionSpaceTeleportLocation.rotation;
+
+        InteractionSpace.SetActive(true);
     }
 }
