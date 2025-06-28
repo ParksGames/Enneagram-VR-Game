@@ -1719,11 +1719,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3bae16527712f5949a646152b5c090f8, type: 3}
   m_PrefabInstance: {fileID: 229357634}
   m_PrefabAsset: {fileID: 0}
---- !u!23 &244058523 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 4182495130604106299, guid: b746725e77ac0cc46bf96e46ed1ff208, type: 3}
-  m_PrefabInstance: {fileID: 295868339}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &247089138
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2103,7 +2098,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2826231802094650055, guid: b746725e77ac0cc46bf96e46ed1ff208, type: 3}
       propertyPath: m_LocalScale.x
-      value: 42.66667
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2826231802094650055, guid: b746725e77ac0cc46bf96e46ed1ff208, type: 3}
       propertyPath: m_LocalScale.z
@@ -2157,8 +2152,13 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -0.02
       objectReference: {fileID: 0}
+    - target: {fileID: 7814452371036653115, guid: b746725e77ac0cc46bf96e46ed1ff208, type: 3}
+      propertyPath: m_Renderer
+      value: 
+      objectReference: {fileID: 1567507219}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 6928135969069616662, guid: b746725e77ac0cc46bf96e46ed1ff208, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b746725e77ac0cc46bf96e46ed1ff208, type: 3}
@@ -9200,6 +9200,11 @@ Light:
   m_LightUnit: 1
   m_LuxAtDistance: 1
   m_EnableSpotReflector: 1
+--- !u!23 &1567507219 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 3155020581302798468, guid: b746725e77ac0cc46bf96e46ed1ff208, type: 3}
+  m_PrefabInstance: {fileID: 295868339}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1572404382
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10375,9 +10380,10 @@ MonoBehaviour:
   XRCamera: {fileID: 1161125761}
   LeftNearFarInteractor: {fileID: 1952107245}
   RightNearFarInteractor: {fileID: 1205927796}
-  VideoMeshRenderer: {fileID: 244058523}
+  VideoMeshRenderer: {fileID: 0}
   StartWalkMarker: {fileID: 2113143521}
   ScreenFader: {fileID: 0}
+  InteractionSpace: {fileID: 0}
   FullTimeLimit: 0
 --- !u!4 &1859971799
 Transform:
