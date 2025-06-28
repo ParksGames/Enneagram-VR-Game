@@ -4,40 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7f83f85-6b8d-439c-af97-0f0b7c6f6452" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Enneagram-VR-Game-3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Enneagram-VR-Game-3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Epic Toon FX/Materials/Misc/Fire/fire_ground_3x3_AB.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Epic Toon FX/Materials/Misc/Fire/fire_ground_3x3_AB.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Epic Toon FX/Materials/Misc/Fire/fire_soft_AB.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Epic Toon FX/Materials/Misc/Fire/fire_soft_AB.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Epic Toon FX/Materials/Misc/Powerbox/VertexColor/power_fire2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Epic Toon FX/Materials/Misc/Powerbox/VertexColor/power_fire2.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Epic Toon FX/Materials/Misc/Powerups/PreColored/pwr_sym_pc_fire2_AB.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Epic Toon FX/Materials/Misc/Powerups/PreColored/pwr_sym_pc_fire2_AB.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Epic Toon FX/Materials/Misc/Powerups/PreColored/pwr_sym_pc_fire_AB.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Epic Toon FX/Materials/Misc/Powerups/PreColored/pwr_sym_pc_fire_AB.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Epic Toon FX/Materials/Misc/Powerups/VertexColor/pwr_sym_fire2_AB.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Epic Toon FX/Materials/Misc/Powerups/VertexColor/pwr_sym_fire2_AB.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Epic Toon FX/Materials/Misc/Powerups/VertexColor/pwr_sym_fire_AB.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Epic Toon FX/Materials/Misc/Powerups/VertexColor/pwr_sym_fire_AB.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lux URP Essentials/Demos/Art Assets/Rocks/Sources/M Rock Desert.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lux URP Essentials/Demos/Art Assets/Rocks/Sources/M Rock Desert.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MaskTexture.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MaskTexture.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VRTemplateAssets/Materials/UI/VideoTexture.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VRTemplateAssets/Materials/UI/VideoTexture.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VRTemplateAssets/Scripts/VideoPlayerRenderTexture.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VRTemplateAssets/Scripts/VideoPlayerRenderTexture.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/ArtScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/ArtScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Prefabs/PF_Screen.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Prefabs/PF_Screen.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Prefabs/PortalTrees_Scene.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Prefabs/PortalTrees_Scene.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/Leaves_HeroTree_02.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/Leaves_HeroTree_02.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/Leaves_HeroTree_03.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/Leaves_HeroTree_03.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/M_DecalSand 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/M_DecalSand 1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/M_DecalSand.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/M_DecalSand.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/M_Terrain 2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/M_Terrain 2.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/Water_mat_01 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/Water_mat_01 1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Models/Branch_01.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Models/Branch_01.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Models/Branch_02.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Models/Branch_02.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Models/Branch_03.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Models/Branch_03.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Models/Ground.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Models/Ground.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Models/Screen.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Models/Screen.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Models/Screen_01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Models/Screen_01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Shaders/SH_Terrain.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Shaders/SH_Terrain.shadergraph" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Textures/Masks/DefaultMaterial_AT_.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Textures/Masks/DefaultMaterial_AT_.png" afterDir="false" />
-    </list>
+    <list default="true" id="b7f83f85-6b8d-439c-af97-0f0b7c6f6452" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -153,7 +120,7 @@
       <workItem from="1750645303663" duration="207000" />
       <workItem from="1750645515993" duration="275000" />
       <workItem from="1750981238341" duration="4752000" />
-      <workItem from="1751065573640" duration="796000" />
+      <workItem from="1751065573640" duration="888000" />
     </task>
     <servers />
   </component>
