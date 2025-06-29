@@ -27,6 +27,7 @@ public class Walk_Marker : MonoBehaviour
     private Collider Collider;
     private bool HideMarkersUntilNarratorFinished;
     private bool NarratorAudioAlreadyPlayed;
+    private bool SecondaryAudioAlreadyPlayed;
 
     static private List<Walk_Marker> ActiveMarkers = new List<Walk_Marker>();
 
@@ -34,6 +35,7 @@ public class Walk_Marker : MonoBehaviour
     void Start()
     {
         NarratorAudioAlreadyPlayed = false;
+        SecondaryAudioAlreadyPlayed = false;
         HideMarkersUntilNarratorFinished = false;
         Collider = GetComponent<Collider>();
         SimpleInteractable = GetComponent<XRSimpleInteractable>();
@@ -86,9 +88,10 @@ public class Walk_Marker : MonoBehaviour
     public void Clicked()
     {
         if (PlaysNarratorAudio && AttachedNarratorAudio != null && SecondaryAudioClipAfterEngagementSpaceIsActivated != null) {
-            if (Enneagram.Instance.EngagementSpaceActivated) {
+            if (Enneagram.Instance.EngagementSpaceActivated && !SecondaryAudioAlreadyPlayed) {
                 AttachedNarratorAudio.clip = SecondaryAudioClipAfterEngagementSpaceIsActivated;
                 NarratorAudioAlreadyPlayed = false;
+                SecondaryAudioAlreadyPlayed = true;
             }
         }
 
