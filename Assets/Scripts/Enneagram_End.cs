@@ -22,7 +22,7 @@ public class Enneagram_End : MonoBehaviour
         TimeElapsed += Time.deltaTime;
         if (!LoadStarted && TimeElapsed >= TimeToStartLoadScene) {
             LoadStarted = true;
-            StartSceneLoadAsyncOperation = SceneManager.LoadSceneAsync("Start");
+            StartSceneLoadAsyncOperation = SceneManager.LoadSceneAsync("ArtScene");
             StartSceneLoadAsyncOperation.allowSceneActivation = false;
         }
         if (TimeElapsed >= FullTimeLimit) {

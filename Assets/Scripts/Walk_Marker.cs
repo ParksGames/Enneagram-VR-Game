@@ -16,14 +16,25 @@ public class Walk_Marker : MonoBehaviour
     [SerializeField]
     public AudioSource FootstepSound;
 
+    [SerializeField]
+    public bool PlaysNarratorAudio;
+    [SerializeField]
+    public AudioSource AttachedNarratorAudio;
+    [SerializeField]
+    public AudioClip SecondaryAudioClipAfterEngagementSpaceIsActivated;
+
     private XRSimpleInteractable SimpleInteractable;
     private Collider Collider;
+    private bool HideMarkersUntilNarratorFinished;
+    private bool NarratorAudioAlreadyPlayed;
 
     static private List<Walk_Marker> ActiveMarkers = new List<Walk_Marker>();
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        NarratorAudioAlreadyPlayed = false;
+        HideMarkersUntilNarratorFinished = false;
         Collider = GetComponent<Collider>();
         SimpleInteractable = GetComponent<XRSimpleInteractable>();
         Hide();
@@ -32,6 +43,15 @@ public class Walk_Marker : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (HideMarkersUntilNarratorFinished) {
+            if (AttachedNarratorAudio == null || !AttachedNarratorAudio.isPlaying) {
+                foreach (Walk_Marker Marker in ConnectedMarkers) {
+                    Marker.Show();
+                }
+                HideMarkersUntilNarratorFinished = false;
+                NarratorAudioAlreadyPlayed = true;
+            }
+        }
     }
 
     public void Hide() {
@@ -65,6 +85,13 @@ public class Walk_Marker : MonoBehaviour
 
     public void Clicked()
     {
+        if (PlaysNarratorAudio && AttachedNarratorAudio != null && SecondaryAudioClipAfterEngagementSpaceIsActivated != null) {
+            if (Enneagram.Instance.EngagementSpaceActivated) {
+                AttachedNarratorAudio.clip = SecondaryAudioClipAfterEngagementSpaceIsActivated;
+                NarratorAudioAlreadyPlayed = false;
+            }
+        }
+
         Enneagram.Instance.XROrigin.transform.position = gameObject.transform.position;
         Enneagram.Instance.XROrigin.transform.rotation = gameObject.transform.rotation;
 
@@ -80,8 +107,19 @@ public class Walk_Marker : MonoBehaviour
 
         ActiveMarkers.Clear();
         foreach (Walk_Marker Marker in ConnectedMarkers) {
-            Marker.Show();
+            if (PlaysNarratorAudio && AttachedNarratorAudio != null && !NarratorAudioAlreadyPlayed) {
+                Marker.Hide();
+            } else {
+                Marker.Show();
+            }
+            
             ActiveMarkers.Add(Marker);
+        }
+
+        if (PlaysNarratorAudio && AttachedNarratorAudio != null && !NarratorAudioAlreadyPlayed) {
+            AttachedNarratorAudio.Play();
+            Enneagram.Instance.InTransition = true;
+            HideMarkersUntilNarratorFinished = true;
         }
     }
 }

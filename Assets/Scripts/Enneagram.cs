@@ -38,7 +38,9 @@ public class Enneagram : MonoBehaviour
     public VideoClip SacredTrustVideoClip;
 
     [SerializeField]
-    public Transform InteractionSpaceTeleportLocation;
+    public Transform TheaterSpaceTeleportLocation;
+    [SerializeField]
+    public Walk_Marker InteractionSpaceTeleportMarker;
     [SerializeField]
     public GameObject XROrigin;
     [SerializeField]
@@ -67,17 +69,29 @@ public class Enneagram : MonoBehaviour
     public float FullTimeLimit;
 
     private float TimeElapsed;
+    private float TimeElapsedSinceLastTransition;
+    private bool InteractionDisabled;
+    public bool InTransition;
+    public bool EngagementSpaceActivated;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        InTransition = false;
         Instance = this;
 
-        InteractionSpace.SetActive(false);
+        if (InteractionSpace != null) {
+            InteractionSpace.SetActive(false);
+        }
 
         VideoMeshRenderer.enabled = false;
 
+        EngagementSpaceActivated = false;
+        InteractionDisabled = false;
         TimeElapsed = 0;
+        TimeElapsedSinceLastTransition = 0;
+
+        VideoPlayer.loopPointReached += OnVideoFinished;
 
         if (StartWalkMarker != null) {
             StartWalkMarker.Clicked();
@@ -88,17 +102,27 @@ public class Enneagram : MonoBehaviour
     void Update()
     {
         TimeElapsed += Time.deltaTime;
-        if (TimeElapsed >= FullTimeLimit) {
-            TimeElapsed = float.NegativeInfinity;
-            StartCoroutine(GoToEndSceneAsyncRoutine());
+        if (InTransition) {
+            TimeElapsedSinceLastTransition = 0;
+        } else {
+            TimeElapsedSinceLastTransition += Time.deltaTime;
+
+            if (TimeElapsed >= FullTimeLimit) {
+                if (!InteractionDisabled) {
+                    // Disable interactions:
+                    LeftNearFarInteractor.interactionLayers = new InteractionLayerMask();
+                    RightNearFarInteractor.interactionLayers = new InteractionLayerMask();
+                    InteractionDisabled = true;
+                }
+                if (TimeElapsedSinceLastTransition >= 0.5) {
+                    TimeElapsed = float.NegativeInfinity;
+                    StartCoroutine(GoToEndSceneAsyncRoutine());
+                }
+            }
         }
     }
 
     public IEnumerator GoToEndSceneAsyncRoutine() {
-        // Disable interactions:
-        LeftNearFarInteractor.interactionLayers = new InteractionLayerMask();
-        RightNearFarInteractor.interactionLayers = new InteractionLayerMask();
-
         // Activate fade to white:
         ScreenFader.FadeColor = new Color(1, 1, 1, 0);
         ScreenFader.ActivateFadeIn();
@@ -118,7 +142,6 @@ public class Enneagram : MonoBehaviour
     {
         if (VideoPlayer != null)
         {
-            VideoPlayer.loopPointReached += OnVideoFinished;
             switch (SacredType)
             {
                 case Sacred_Type.CONNECTION:
@@ -132,6 +155,7 @@ public class Enneagram : MonoBehaviour
                     break;
             }
 
+            InTransition = true;
             VideoMeshRenderer.enabled = true;
             VideoPlayer.Play();
         }
@@ -140,11 +164,16 @@ public class Enneagram : MonoBehaviour
     public void OnVideoFinished(VideoPlayer VideoPlayer)
     {
         VideoMeshRenderer.enabled = false;
-        XROrigin.transform.position = InteractionSpaceTeleportLocation.position;
-        //Vector3 Rot = XROrigin.transform.rotation.eulerAngles;
-        //Rot.y += 180;
-        XROrigin.transform.rotation = InteractionSpaceTeleportLocation.rotation;
 
-        InteractionSpace.SetActive(true);
+        InTransition = false;
+
+        EngagementSpaceActivated = true;
+        if (InteractionSpace != null) {
+            InteractionSpace.SetActive(true);
+        }
+
+        if (InteractionSpaceTeleportMarker != null) {
+            InteractionSpaceTeleportMarker.Clicked();
+        }
     }
 }
