@@ -13,7 +13,7 @@ public class Enneagram_End : MonoBehaviour
     private float TimeElapsed;
     private AsyncOperation StartSceneLoadAsyncOperation;
 
-    void Start() {
+    void Awake() {
         LoadStarted = false;
         TimeElapsed = 0;
     }

@@ -42,17 +42,13 @@ public class Walk_Marker : MonoBehaviour
 
     static private List<Walk_Marker> ActiveMarkers = new List<Walk_Marker>();
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
+    void Awake() {
         Collider = GetComponent<Collider>();
         SimpleInteractable = GetComponent<XRSimpleInteractable>();
         Hide();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
+    void Update() {
         if (HideMarkersUntilNarratorFinished) {
             if (AttachedNarratorAudio == null || !AttachedNarratorAudio.isPlaying) {
                 foreach (Walk_Marker Marker in ConnectedMarkers) {
@@ -83,7 +79,9 @@ public class Walk_Marker : MonoBehaviour
 
     public void Hide() {
         foreach (GameObject Obj in HideObjects) {
-            Obj.SetActive(false);
+            if (Obj != null) {
+                Obj.SetActive(false);
+            }
         }
         if (SimpleInteractable != null) {
             SimpleInteractable.enabled = false;
@@ -136,8 +134,7 @@ public class Walk_Marker : MonoBehaviour
         ActiveMarkers.Add(this);
     }
 
-    public void Clicked()
-    {
+    public void Clicked() {
         if (Enneagram.Instance.DEBUG_DisableNarrator) {
             NarratorAudioAlreadyPlayed = true;
             SecondaryAudioAlreadyPlayed = true;

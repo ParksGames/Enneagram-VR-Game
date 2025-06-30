@@ -34,8 +34,7 @@ public class Flower : MonoBehaviour {
     private bool Grabbed;
     private string StartString;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start() {
+    void Awake() {
         Grabbed = false;
         UsingLeftHand = false;
         StartString = TextMesh.text;
@@ -47,7 +46,6 @@ public class Flower : MonoBehaviour {
         RigidBody = GetComponent<Rigidbody>();
     }
 
-    // Update is called once per frame
     void Update() {
         if (Enneagram.Instance != null) {
             TextMesh.gameObject.transform.LookAt(Enneagram.Instance.XRCamera.transform);

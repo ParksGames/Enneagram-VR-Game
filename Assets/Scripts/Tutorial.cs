@@ -13,9 +13,9 @@ public class Tutorial : MonoBehaviour {
     [SerializeField]
     public GameObject UIGameObject;
 
-    private bool TutorialActive = false;
-
-    void Start() {
+    private bool TutorialActive;
+    void Awake() {
+        TutorialActive = false;
         UIGameObject.SetActive(false);
     }
 

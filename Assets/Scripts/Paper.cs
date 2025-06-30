@@ -26,7 +26,7 @@ public class Paper : MonoBehaviour
     static Color WhiteColor = new Color(1, 1, 1);
     static Color BlackColor = new Color(0, 0, 0);
 
-    void Start() {
+    void Awake() {
         RigidBody = GetComponent<Rigidbody>();
         StartingPosition = gameObject.transform.position;
         StartingRotation = gameObject.transform.rotation;

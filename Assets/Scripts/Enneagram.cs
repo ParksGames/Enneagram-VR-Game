@@ -118,9 +118,7 @@ public class Enneagram : MonoBehaviour {
         }
     }
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
+    void Awake() {
         EmptyLayerMask = new InteractionLayerMask();
         DefaultLayerMask = InteractionLayerMask.GetMask(new[] { "Default" });
         PaperBurningMask = InteractionLayerMask.GetMask(new[] { "Default", "Paper" });
@@ -129,15 +127,7 @@ public class Enneagram : MonoBehaviour {
         IsPlayingVideo = false;
         InTransition = false;
         Instance = this;
-
-        if (DEBUG_EnableEngagementSpaceBeforeVideo) {
-            EngagementSpaceActivated = true;
-        } else {
-            foreach (GameObject Obj in InteractionSpaceObjects) {
-                Obj.SetActive(false);
-            }
-            EngagementSpaceActivated = false;
-        }
+        EngagementSpaceActivated = false;
 
         VideoMeshRenderer.enabled = false;
 
@@ -147,15 +137,24 @@ public class Enneagram : MonoBehaviour {
         TimeElapsedSinceLastTransition = 0;
 
         VideoPlayer.loopPointReached += OnVideoFinished;
+    }
+
+    void Start() {
+        if (DEBUG_EnableEngagementSpaceBeforeVideo) {
+            EngagementSpaceActivated = true;
+        } else {
+            foreach (GameObject Obj in InteractionSpaceObjects) {
+                Obj.SetActive(false);
+            }
+            EngagementSpaceActivated = false;
+        }
 
         if (StartWalkMarker != null) {
             StartWalkMarker.Clicked();
         }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
+    void Update() {
         TimeElapsed += Time.deltaTime;
         if (InTransition) {
             TimeElapsedSinceLastTransition = 0;

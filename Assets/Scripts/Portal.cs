@@ -16,7 +16,7 @@ public class Portal : MonoBehaviour {
 
     private bool AlreadyEntered = false;
 
-    void Start() {
+    void Awake() {
         UIGameObject.SetActive(false);
         AlreadyEnteredUIGameObject.SetActive(false);
     }

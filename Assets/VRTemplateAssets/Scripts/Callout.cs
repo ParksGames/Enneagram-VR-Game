@@ -41,7 +41,7 @@ namespace Unity.VRTemplate
         Coroutine m_StartCo;
         Coroutine m_EndCo;
 
-        void Start()
+        void Awake()
         {
             if (m_Unparent)
             {

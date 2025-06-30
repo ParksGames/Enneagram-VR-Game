@@ -22,8 +22,7 @@ public class ScreenFader : MonoBehaviour {
     private float CurrentAlphaStart;
     private float CurrentAlphaEnd;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start() {
+    void Awake() {
         Renderer = GetComponent<Renderer>();
 
         IsActive = false;
@@ -32,7 +31,9 @@ public class ScreenFader : MonoBehaviour {
         FadeColor = DefaultFadeColor;
         CurrentAlphaStart = 0;
         CurrentAlphaEnd = 1;
+    }
 
+    void Start() {
         if (ActivateFadeInOnStart) {
             ActivateFadeIn();
         }
