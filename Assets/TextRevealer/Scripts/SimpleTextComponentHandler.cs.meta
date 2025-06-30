@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: a675e6f1478605b4fb0777ca5152e5cd
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 162281
+  packageName: Text Revealer
+  packageVersion: 1.2
+  assetPath: Assets/TextRevealer/Scripts/SimpleTextComponentHandler.cs
+  uploadId: 735833
