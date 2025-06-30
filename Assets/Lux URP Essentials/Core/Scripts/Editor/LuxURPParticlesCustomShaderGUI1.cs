@@ -163,7 +163,7 @@ public class LuxURPParticlesCustomShaderGUI : ShaderGUI
         
         if(showVertexSteamArea) {
             m_RenderersUsingThisMaterial.Clear();
-            ParticleSystemRenderer[] renderers = UnityEngine.Object.FindObjectsOfType(typeof(ParticleSystemRenderer)) as ParticleSystemRenderer[];
+            ParticleSystemRenderer[] renderers = UnityEngine.Object.FindObjectsByType(typeof(ParticleSystemRenderer), FindObjectsSortMode.InstanceID) as ParticleSystemRenderer[];
             foreach (ParticleSystemRenderer renderer in renderers) {
                 if (renderer.sharedMaterial == material)
                     m_RenderersUsingThisMaterial.Add(renderer);

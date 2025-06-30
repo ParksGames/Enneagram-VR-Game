@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 using System.Collections;
 using System.Threading;
 using NUnit.Framework;
+using System.Collections.Generic;
 
 /* TODO LIST:
  * 
@@ -25,8 +26,7 @@ public enum Sacred_Type
     TRUST,
 };
 
-public class Enneagram : MonoBehaviour
-{
+public class Enneagram : MonoBehaviour {
     [SerializeField]
     public VideoPlayer VideoPlayer;
 
@@ -38,7 +38,7 @@ public class Enneagram : MonoBehaviour
     public VideoClip SacredTrustVideoClip;
 
     [SerializeField]
-    public Transform TheaterSpaceTeleportLocation;
+    public Walk_Marker TheaterSpaceTeleportMarker;
     [SerializeField]
     public Walk_Marker InteractionSpaceTeleportMarker;
     [SerializeField]
@@ -55,38 +55,91 @@ public class Enneagram : MonoBehaviour
     public MeshRenderer VideoMeshRenderer;
 
     [SerializeField]
+    public ParticleSystem FirePaperBurnParticles;
+    [SerializeField]
+    public AudioSource FirePaperBurnSound;
+
+    [SerializeField]
     public Walk_Marker StartWalkMarker;
 
     [SerializeField]
     public ScreenFader ScreenFader;
 
     [SerializeField]
-    public GameObject InteractionSpace;
+    public List<GameObject> InteractionSpaceObjects;
 
     public static Enneagram Instance = null;
 
     [SerializeField]
     public float FullTimeLimit;
 
+    [SerializeField]
+    public bool DEBUG_DisableNarrator;
+    [SerializeField]
+    public bool DEBUG_EnableEngagementSpaceBeforeVideo;
+
     private float TimeElapsed;
     private float TimeElapsedSinceLastTransition;
     private bool InteractionDisabled;
     public bool InTransition;
     public bool EngagementSpaceActivated;
+    public bool PaperBurningAudioAlreadyPlayed;
+
+    public InteractionLayerMask EmptyLayerMask;
+    public InteractionLayerMask DefaultLayerMask;
+    public InteractionLayerMask PaperBurningMask;
+    public InteractionLayerMask FlowerMask;
+
+    public void SetInteractionsDisabled() {
+        LeftNearFarInteractor.interactionLayers = EmptyLayerMask;
+        RightNearFarInteractor.interactionLayers = EmptyLayerMask;
+        InteractionDisabled = true;
+    }
+
+    public void SetDefaultInteractionMask() {
+        if (!InteractionDisabled) {
+            LeftNearFarInteractor.interactionLayers = DefaultLayerMask;
+            RightNearFarInteractor.interactionLayers = DefaultLayerMask;
+        }
+    }
+
+    public void SetPaperBurningInteractionMask() {
+        if (!InteractionDisabled) {
+            LeftNearFarInteractor.interactionLayers = PaperBurningMask;
+            RightNearFarInteractor.interactionLayers = PaperBurningMask;
+        }
+    }
+
+    public void SetFlowerInteractionMask() {
+        if (!InteractionDisabled) {
+            LeftNearFarInteractor.interactionLayers = FlowerMask;
+            RightNearFarInteractor.interactionLayers = FlowerMask;
+        }
+    }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        EmptyLayerMask = new InteractionLayerMask();
+        DefaultLayerMask = InteractionLayerMask.GetMask(new[] { "Default" });
+        PaperBurningMask = InteractionLayerMask.GetMask(new[] { "Default", "Paper" });
+        FlowerMask = InteractionLayerMask.GetMask(new[] { "Default", "Flower" });
+
         InTransition = false;
         Instance = this;
 
-        if (InteractionSpace != null) {
-            InteractionSpace.SetActive(false);
+        if (DEBUG_EnableEngagementSpaceBeforeVideo) {
+            EngagementSpaceActivated = true;
+        } else {
+            foreach (GameObject Obj in InteractionSpaceObjects) {
+                Obj.SetActive(false);
+            }
+            EngagementSpaceActivated = false;
         }
 
         VideoMeshRenderer.enabled = false;
 
-        EngagementSpaceActivated = false;
+        PaperBurningAudioAlreadyPlayed = false;
         InteractionDisabled = false;
         TimeElapsed = 0;
         TimeElapsedSinceLastTransition = 0;
@@ -109,10 +162,7 @@ public class Enneagram : MonoBehaviour
 
             if (TimeElapsed >= FullTimeLimit) {
                 if (!InteractionDisabled) {
-                    // Disable interactions:
-                    LeftNearFarInteractor.interactionLayers = new InteractionLayerMask();
-                    RightNearFarInteractor.interactionLayers = new InteractionLayerMask();
-                    InteractionDisabled = true;
+                    SetInteractionsDisabled();
                 }
                 if (TimeElapsedSinceLastTransition >= 0.5) {
                     TimeElapsed = float.NegativeInfinity;
@@ -164,12 +214,13 @@ public class Enneagram : MonoBehaviour
     public void OnVideoFinished(VideoPlayer VideoPlayer)
     {
         VideoMeshRenderer.enabled = false;
+        PaperBurningAudioAlreadyPlayed = false;
 
         InTransition = false;
 
         EngagementSpaceActivated = true;
-        if (InteractionSpace != null) {
-            InteractionSpace.SetActive(true);
+        foreach (GameObject Obj in InteractionSpaceObjects) {
+            Obj.SetActive(true);
         }
 
         if (InteractionSpaceTeleportMarker != null) {

@@ -5,6 +5,7 @@ using System.Collections;
 using UnityEngine.XR.Interaction.Toolkit.Interactables;
 using UnityEngine.XR.Interaction.Toolkit.Interactors;
 using UnityEngine.XR.Interaction.Toolkit;
+using System.Linq.Expressions;
 
 public class Flower : MonoBehaviour {
     [SerializeField]
@@ -15,12 +16,20 @@ public class Flower : MonoBehaviour {
 
     [SerializeField]
     public XRGrabInteractable GrabInteractable;
+    [SerializeField]
+    public MeshRenderer FlowerMesh;
+    [SerializeField]
+    public AudioSource HoverAudioSource;
+    [SerializeField]
+    public AudioSource SelectAudioSource;
 
     bool UsingLeftHand;
+    private Rigidbody RigidBody;
     private IXRSelectInteractor CurrentInteractor;
     private IXRSelectInteractable CurrentInteractable;
     private XRInteractionManager CurrentInteractionManager;
     private InteractionLayerMask PrevControllerLayerMask;
+    private AudioSource NarratorAudioSource;
 
     private bool Grabbed;
     private string StartString;
@@ -34,6 +43,8 @@ public class Flower : MonoBehaviour {
         CurrentInteractable = null;
         CurrentInteractionManager = null;
         PrevControllerLayerMask = new InteractionLayerMask();
+        NarratorAudioSource = GetComponent<AudioSource>();
+        RigidBody = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
@@ -50,14 +61,19 @@ public class Flower : MonoBehaviour {
 
     private void OnEnable() {
         GrabInteractable.selectEntered.AddListener(OnSelectEntered);
+        GrabInteractable.hoverEntered.AddListener(OnHoverEntered);
+        GrabInteractable.hoverExited.AddListener(OnHoverExited);
     }
 
     private void OnDisable() {
         GrabInteractable.selectEntered.RemoveListener(OnSelectEntered);
+        GrabInteractable.hoverEntered.RemoveListener(OnHoverEntered);
+        GrabInteractable.hoverExited.RemoveListener(OnHoverExited);
     }
 
     public IEnumerator InhaleExhale() {
-        yield return new WaitForSeconds(3);
+        NarratorAudioSource.Play();
+        yield return new WaitForSeconds(9);
         TextMesh.text = "Inhale...";
         yield return new WaitForSeconds(3);
         TextMesh.text = "\nExhale";
@@ -78,12 +94,13 @@ public class Flower : MonoBehaviour {
     private void OnSelectEntered(SelectEnterEventArgs Args) {
         if (!Grabbed) {
             Grabbed = true;
+            SelectAudioSource.Play();
             CurrentInteractor = Args.interactorObject;
             CurrentInteractable = Args.interactableObject;
             CurrentInteractionManager = Args.manager;
             if (CurrentInteractor.handedness == InteractorHandedness.Left) {
                 UsingLeftHand = true;
-                
+
                 Enneagram.Instance.LeftNearFarInteractor.StartManualInteraction(CurrentInteractable);
 
                 PrevControllerLayerMask = Enneagram.Instance.RightNearFarInteractor.interactionLayers;
@@ -99,5 +116,16 @@ public class Flower : MonoBehaviour {
 
             StartCoroutine(InhaleExhale());
         }
+    }
+
+    static Color WhiteColor = new Color(1, 1, 1);
+    static Color BlackColor = new Color(0, 0, 0);
+
+    private void OnHoverEntered(HoverEnterEventArgs Args) {
+        HoverAudioSource.Play();
+        FlowerMesh.material.SetColor("_RimColor", WhiteColor);
+    }
+    private void OnHoverExited(HoverExitEventArgs Args) {
+        FlowerMesh.material.SetColor("_RimColor", BlackColor);
     }
 }

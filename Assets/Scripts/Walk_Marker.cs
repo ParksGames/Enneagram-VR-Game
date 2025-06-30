@@ -14,6 +14,9 @@ public class Walk_Marker : MonoBehaviour
     public List<Walk_Marker> ConnectedMarkers;
 
     [SerializeField]
+    public List<Walk_Marker> ExtraConnectedMarkersWhenEngagementSpaceIsActivated;
+
+    [SerializeField]
     public AudioSource FootstepSound;
 
     [SerializeField]
@@ -22,6 +25,11 @@ public class Walk_Marker : MonoBehaviour
     public AudioSource AttachedNarratorAudio;
     [SerializeField]
     public AudioClip SecondaryAudioClipAfterEngagementSpaceIsActivated;
+
+    [SerializeField]
+    public bool IsFlowersWalkMarker;
+    [SerializeField]
+    public bool IsPaperBurningWalkMarker;
 
     private XRSimpleInteractable SimpleInteractable;
     private Collider Collider;
@@ -49,6 +57,11 @@ public class Walk_Marker : MonoBehaviour
             if (AttachedNarratorAudio == null || !AttachedNarratorAudio.isPlaying) {
                 foreach (Walk_Marker Marker in ConnectedMarkers) {
                     Marker.Show();
+                }
+                if (Enneagram.Instance.EngagementSpaceActivated) {
+                    foreach (Walk_Marker Marker in ExtraConnectedMarkersWhenEngagementSpaceIsActivated) {
+                        Marker.Show();
+                    }
                 }
                 HideMarkersUntilNarratorFinished = false;
                 NarratorAudioAlreadyPlayed = true;
@@ -87,6 +100,19 @@ public class Walk_Marker : MonoBehaviour
 
     public void Clicked()
     {
+        if (Enneagram.Instance.DEBUG_DisableNarrator) {
+            NarratorAudioAlreadyPlayed = true;
+            SecondaryAudioAlreadyPlayed = true;
+        }
+
+        if (IsFlowersWalkMarker) {
+            Enneagram.Instance.SetFlowerInteractionMask();
+        } else if (IsPaperBurningWalkMarker) {
+            Enneagram.Instance.SetPaperBurningInteractionMask();
+        } else {
+            Enneagram.Instance.SetDefaultInteractionMask();
+        }
+
         if (PlaysNarratorAudio && AttachedNarratorAudio != null && SecondaryAudioClipAfterEngagementSpaceIsActivated != null) {
             if (Enneagram.Instance.EngagementSpaceActivated && !SecondaryAudioAlreadyPlayed) {
                 AttachedNarratorAudio.clip = SecondaryAudioClipAfterEngagementSpaceIsActivated;
@@ -117,6 +143,18 @@ public class Walk_Marker : MonoBehaviour
             }
             
             ActiveMarkers.Add(Marker);
+        }
+
+        if (Enneagram.Instance.EngagementSpaceActivated) {
+            foreach (Walk_Marker Marker in ExtraConnectedMarkersWhenEngagementSpaceIsActivated) {
+                if (PlaysNarratorAudio && AttachedNarratorAudio != null && !NarratorAudioAlreadyPlayed) {
+                    Marker.Hide();
+                } else {
+                    Marker.Show();
+                }
+
+                ActiveMarkers.Add(Marker);
+            }
         }
 
         if (PlaysNarratorAudio && AttachedNarratorAudio != null && !NarratorAudioAlreadyPlayed) {
