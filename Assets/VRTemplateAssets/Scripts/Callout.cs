@@ -24,9 +24,17 @@ namespace Unity.VRTemplate
         [Tooltip("Whether the associated tooltip will be unparented on Start.")]
         bool m_Unparent = true;
 
+#if false
+        [SerializeField]
+        GameObject NewParent;
+#endif
+
         [SerializeField]
         [Tooltip("Whether the associated tooltip and curve will be disabled on Start.")]
         bool m_TurnOffAtStart = true;
+
+        private bool IsActive = false;
+        private bool PermanentlyActive = false;
 
         bool m_Gazing = false;
 
@@ -41,12 +49,21 @@ namespace Unity.VRTemplate
                     m_LazyTooltip.SetParent(null);
             }
 
-            if (m_TurnOffAtStart)
-            {
+#if false
+            if (NewParent != null) {
+                if (m_LazyTooltip != null)
+                    m_LazyTooltip.SetParent(NewParent.transform);
+            }
+#endif
+
+            if (m_TurnOffAtStart) {
                 if (m_LazyTooltip != null)
                     m_LazyTooltip.gameObject.SetActive(false);
                 if (m_Curve != null)
                     m_Curve.SetActive(false);
+                IsActive = false;
+            } else {
+                IsActive = true;
             }
         }
 
@@ -80,20 +97,39 @@ namespace Unity.VRTemplate
             yield return null;
         }
 
-        void TurnOnStuff()
+        public void UnsetAsPermanentlyActive() {
+            PermanentlyActive = false;
+            if (IsActive && !m_Gazing) {
+                m_EndCo = StartCoroutine(EndDelay());
+            }
+        }
+        public void SetAsPermanentlyActive() {
+            PermanentlyActive = true;
+            if (!IsActive) {
+                TurnOnStuff();
+            }
+        }
+
+        public void TurnOnStuff()
         {
             if (m_LazyTooltip != null)
                 m_LazyTooltip.gameObject.SetActive(true);
             if (m_Curve != null)
                 m_Curve.SetActive(true);
+            IsActive = true;
         }
 
-        void TurnOffStuff()
+        public void TurnOffStuff()
         {
+            if (PermanentlyActive) {
+                return; // Don't turn off
+            }
+
             if (m_LazyTooltip != null)
                 m_LazyTooltip.gameObject.SetActive(false);
             if (m_Curve != null)
                 m_Curve.SetActive(false);
+            IsActive = false;
         }
     }
 }

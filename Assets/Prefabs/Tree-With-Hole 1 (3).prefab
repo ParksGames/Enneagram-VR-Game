@@ -176,6 +176,7 @@ GameObject:
   - component: {fileID: 6040105878664471020}
   - component: {fileID: 8402500323996099500}
   - component: {fileID: 946674903372104175}
+  - component: {fileID: 3032731371326125460}
   m_Layer: 0
   m_Name: Button
   m_TagString: Untagged
@@ -254,7 +255,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
@@ -338,6 +339,18 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &3032731371326125460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 510227068296788135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1a4c6137991eb2459cc89f439edd7fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &919132149155446097
 GameObject:
   m_ObjectHideFlags: 0
@@ -410,8 +423,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5008a6ebd66d78942b0fcea0ea219075, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  XROrigin: {fileID: 0}
   SacredType: 2
+  IsEntrancePortal: 0
+  EntrancePortalTeleportMarker: {fileID: 0}
   UIGameObject: {fileID: 7992219728803352930}
   AlreadyEnteredUIGameObject: {fileID: 4429435088098654607}
 --- !u!114 &2132689324850086338
@@ -1078,6 +1092,7 @@ GameObject:
   - component: {fileID: 8534428561485203030}
   - component: {fileID: 5966732738789586830}
   - component: {fileID: 6932817459267411545}
+  - component: {fileID: 7866155670964369464}
   m_Layer: 0
   m_Name: Button (1)
   m_TagString: Untagged
@@ -1156,7 +1171,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
@@ -1187,9 +1202,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6286930970472374482}
+      - m_Target: {fileID: 2793216089646739585}
         m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-        m_MethodName: 
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1228,9 +1243,9 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 6157552209147426936}
+        - m_Target: {fileID: 4932844324589905615}
           m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-          m_MethodName: 
+          m_MethodName: Play
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -1240,6 +1255,18 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &7866155670964369464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4124929897337936659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1a4c6137991eb2459cc89f439edd7fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4424396828587804706
 GameObject:
   m_ObjectHideFlags: 0
@@ -1645,6 +1672,7 @@ GameObject:
   - component: {fileID: 2399548411490973378}
   - component: {fileID: 5596209000533131744}
   - component: {fileID: 2034375246678016004}
+  - component: {fileID: 2417087544329181386}
   m_Layer: 0
   m_Name: Button (1)
   m_TagString: Untagged
@@ -1723,7 +1751,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
@@ -1754,9 +1782,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6286930970472374482}
+      - m_Target: {fileID: 2793216089646739585}
         m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-        m_MethodName: 
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1795,9 +1823,9 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 6157552209147426936}
+        - m_Target: {fileID: 4932844324589905615}
           m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-          m_MethodName: 
+          m_MethodName: Play
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -1807,6 +1835,18 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &2417087544329181386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5221334943567609485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1a4c6137991eb2459cc89f439edd7fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6157552209147426936
 GameObject:
   m_ObjectHideFlags: 0

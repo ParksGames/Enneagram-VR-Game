@@ -82,6 +82,7 @@ public class Enneagram : MonoBehaviour {
     private float TimeElapsedSinceLastTransition;
     private bool InteractionDisabled;
     public bool InTransition;
+    public bool IsPlayingVideo;
     public bool EngagementSpaceActivated;
     public bool PaperBurningAudioAlreadyPlayed;
 
@@ -125,6 +126,7 @@ public class Enneagram : MonoBehaviour {
         PaperBurningMask = InteractionLayerMask.GetMask(new[] { "Default", "Paper" });
         FlowerMask = InteractionLayerMask.GetMask(new[] { "Default", "Flower" });
 
+        IsPlayingVideo = false;
         InTransition = false;
         Instance = this;
 
@@ -206,6 +208,7 @@ public class Enneagram : MonoBehaviour {
             }
 
             InTransition = true;
+            IsPlayingVideo = true;
             VideoMeshRenderer.enabled = true;
             VideoPlayer.Play();
         }
@@ -216,7 +219,14 @@ public class Enneagram : MonoBehaviour {
         VideoMeshRenderer.enabled = false;
         PaperBurningAudioAlreadyPlayed = false;
 
-        InTransition = false;
+        IsPlayingVideo = false;
+        bool DoesInteractionSpaceTeleportMarkerHaveTransition = false;
+        if (InteractionSpaceTeleportMarker != null) {
+            DoesInteractionSpaceTeleportMarkerHaveTransition = InteractionSpaceTeleportMarker.WillPlayTransitionOnNextClick();
+        }
+        if (!DoesInteractionSpaceTeleportMarkerHaveTransition) {
+            InTransition = false;
+        }
 
         EngagementSpaceActivated = true;
         foreach (GameObject Obj in InteractionSpaceObjects) {

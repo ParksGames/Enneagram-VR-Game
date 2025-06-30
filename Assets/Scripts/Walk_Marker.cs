@@ -1,11 +1,14 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Timeline;
 using UnityEngine.XR.Interaction.Toolkit.Interactables;
 
 public class Walk_Marker : MonoBehaviour
 {
     [SerializeField]
     public Portal AttachedPortal;
+    [SerializeField]
+    public Tutorial AttachedTutorial;
 
     [SerializeField]
     public List<GameObject> HideObjects;
@@ -33,18 +36,15 @@ public class Walk_Marker : MonoBehaviour
 
     private XRSimpleInteractable SimpleInteractable;
     private Collider Collider;
-    private bool HideMarkersUntilNarratorFinished;
-    private bool NarratorAudioAlreadyPlayed;
-    private bool SecondaryAudioAlreadyPlayed;
+    private bool HideMarkersUntilNarratorFinished = false;
+    private bool NarratorAudioAlreadyPlayed = false;
+    private bool SecondaryAudioAlreadyPlayed = false;
 
     static private List<Walk_Marker> ActiveMarkers = new List<Walk_Marker>();
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        NarratorAudioAlreadyPlayed = false;
-        SecondaryAudioAlreadyPlayed = false;
-        HideMarkersUntilNarratorFinished = false;
         Collider = GetComponent<Collider>();
         SimpleInteractable = GetComponent<XRSimpleInteractable>();
         Hide();
@@ -63,8 +63,20 @@ public class Walk_Marker : MonoBehaviour
                         Marker.Show();
                     }
                 }
+                
+                if (AttachedPortal != null) {
+                    AttachedPortal.ShowUI();
+                }
+
+                if (AttachedTutorial != null) {
+                    AttachedTutorial.ShowUI();
+                }
+
                 HideMarkersUntilNarratorFinished = false;
                 NarratorAudioAlreadyPlayed = true;
+                if (!Enneagram.Instance.IsPlayingVideo) {
+                    Enneagram.Instance.InTransition = false;
+                }
             }
         }
     }
@@ -98,6 +110,32 @@ public class Walk_Marker : MonoBehaviour
         Clicked();
     }
 
+    public bool HasPrimaryAudio() {
+        return (PlaysNarratorAudio && AttachedNarratorAudio != null && !Enneagram.Instance.DEBUG_DisableNarrator);
+    }
+    public bool WillPlayPrimaryAudio() {
+        return (HasPrimaryAudio() && !NarratorAudioAlreadyPlayed);
+    }
+    public bool HasSecondaryAudio() {
+        return (HasPrimaryAudio() && SecondaryAudioClipAfterEngagementSpaceIsActivated != null);
+    }
+    public bool WillPlaySecondaryAudio() {
+        return (HasSecondaryAudio() && Enneagram.Instance.EngagementSpaceActivated && !SecondaryAudioAlreadyPlayed);
+    }
+    public bool WillPlayTransitionOnNextClick() {
+        return (WillPlayPrimaryAudio() || WillPlaySecondaryAudio());
+    }
+
+    public void ActivateMarkerFromTutorial() {
+        foreach (Walk_Marker Marker in ActiveMarkers) {
+            Marker.Hide();
+        }
+
+        ActiveMarkers.Clear();
+        Show();
+        ActiveMarkers.Add(this);
+    }
+
     public void Clicked()
     {
         if (Enneagram.Instance.DEBUG_DisableNarrator) {
@@ -113,12 +151,10 @@ public class Walk_Marker : MonoBehaviour
             Enneagram.Instance.SetDefaultInteractionMask();
         }
 
-        if (PlaysNarratorAudio && AttachedNarratorAudio != null && SecondaryAudioClipAfterEngagementSpaceIsActivated != null) {
-            if (Enneagram.Instance.EngagementSpaceActivated && !SecondaryAudioAlreadyPlayed) {
-                AttachedNarratorAudio.clip = SecondaryAudioClipAfterEngagementSpaceIsActivated;
-                NarratorAudioAlreadyPlayed = false;
-                SecondaryAudioAlreadyPlayed = true;
-            }
+        if (WillPlaySecondaryAudio()) {
+            AttachedNarratorAudio.clip = SecondaryAudioClipAfterEngagementSpaceIsActivated;
+            NarratorAudioAlreadyPlayed = false;
+            SecondaryAudioAlreadyPlayed = true;
         }
 
         Enneagram.Instance.XROrigin.transform.position = gameObject.transform.position;
@@ -126,8 +162,13 @@ public class Walk_Marker : MonoBehaviour
 
         Hide();
 
-        if (AttachedPortal != null) {
-            AttachedPortal.ShowUI();
+        if (!WillPlayPrimaryAudio() && !WillPlaySecondaryAudio()) {
+            if (AttachedPortal != null) {
+                AttachedPortal.ShowUI();
+            }
+            if (AttachedTutorial != null) {
+                AttachedTutorial.ShowUI();
+            }
         }
 
         foreach (Walk_Marker Marker in ActiveMarkers) {
@@ -136,7 +177,7 @@ public class Walk_Marker : MonoBehaviour
 
         ActiveMarkers.Clear();
         foreach (Walk_Marker Marker in ConnectedMarkers) {
-            if (PlaysNarratorAudio && AttachedNarratorAudio != null && !NarratorAudioAlreadyPlayed) {
+            if (WillPlayPrimaryAudio() || WillPlaySecondaryAudio()) {
                 Marker.Hide();
             } else {
                 Marker.Show();
@@ -147,7 +188,7 @@ public class Walk_Marker : MonoBehaviour
 
         if (Enneagram.Instance.EngagementSpaceActivated) {
             foreach (Walk_Marker Marker in ExtraConnectedMarkersWhenEngagementSpaceIsActivated) {
-                if (PlaysNarratorAudio && AttachedNarratorAudio != null && !NarratorAudioAlreadyPlayed) {
+                if (WillPlayPrimaryAudio() || WillPlaySecondaryAudio()) {
                     Marker.Hide();
                 } else {
                     Marker.Show();
@@ -157,7 +198,7 @@ public class Walk_Marker : MonoBehaviour
             }
         }
 
-        if (PlaysNarratorAudio && AttachedNarratorAudio != null && !NarratorAudioAlreadyPlayed) {
+        if (WillPlayPrimaryAudio() || WillPlaySecondaryAudio()) {
             AttachedNarratorAudio.Play();
             Enneagram.Instance.InTransition = true;
             HideMarkersUntilNarratorFinished = true;

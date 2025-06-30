@@ -1,34 +1,24 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Portal : MonoBehaviour
-{
-    [SerializeField]
-    public GameObject XROrigin;
-
+public class Portal : MonoBehaviour {
     [SerializeField]
     public Sacred_Type SacredType;
+    [SerializeField]
+    public bool IsEntrancePortal;
+    [SerializeField]
+    public Walk_Marker EntrancePortalTeleportMarker;
 
     [SerializeField]
     public GameObject UIGameObject;
-
     [SerializeField]
     public GameObject AlreadyEnteredUIGameObject;
 
-    private bool AlreadyEntered;
+    private bool AlreadyEntered = false;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        AlreadyEntered = false;
+    void Start() {
         UIGameObject.SetActive(false);
         AlreadyEnteredUIGameObject.SetActive(false);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     public void ShowUI() {
@@ -39,26 +29,26 @@ public class Portal : MonoBehaviour
         }
     }
 
-    public void EnterPortal()
-    {
-        if (XROrigin != null)
-        {
+    public void EnterPortal() {
+        if (!IsEntrancePortal) {
             Enneagram.Instance.TheaterSpaceTeleportMarker.Clicked();
+        } else {
+            EntrancePortalTeleportMarker.Clicked();
+        }
 
-            UIGameObject.SetActive(false);
+        UIGameObject.SetActive(false);
 
-            AlreadyEntered = true;
+        AlreadyEntered = true;
 
+        if (!IsEntrancePortal) {
             Enneagram.Instance.StartVideo(SacredType);
         }
     }
 
     public void TurnBack() {
-        if (XROrigin != null) {
-            Vector3 Rot = XROrigin.transform.rotation.eulerAngles;
-            Rot.y += 180;
-            XROrigin.transform.rotation = Quaternion.Euler(Rot);
-        }
+        Vector3 Rot = Enneagram.Instance.XROrigin.transform.rotation.eulerAngles;
+        Rot.y += 180;
+        Enneagram.Instance.XROrigin.transform.rotation = Quaternion.Euler(Rot);
 
         if (AlreadyEntered) {
             AlreadyEnteredUIGameObject.SetActive(false);
