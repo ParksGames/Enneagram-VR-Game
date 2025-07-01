@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_Screen
+  m_Name: M_Screen 2
   m_Shader: {fileID: -6465566751694194690, guid: c00d1ad253c4bb24881e7ad68f61fddd, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0

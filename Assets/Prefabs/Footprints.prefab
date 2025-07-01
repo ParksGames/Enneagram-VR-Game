@@ -300,7 +300,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1410cbaaadf84a7aaa6459d37ad21b3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Renderer: {fileID: 2413516377518118547}
+  m_Renderer: {fileID: 0}
   m_MaterialIndex: 0
 --- !u!114 &9103913499382473875
 MonoBehaviour:
@@ -1066,6 +1066,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 180
       objectReference: {fileID: 0}
+    - target: {fileID: -4458245077133042929, guid: 29a4f6d0b942403448010a61786f4c99, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -2393870468894925398, guid: 29a4f6d0b942403448010a61786f4c99, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -1116,16 +1120,6 @@ MeshRenderer:
 --- !u!1 &1618616843730629347 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -4458245077133042929, guid: 29a4f6d0b942403448010a61786f4c99, type: 3}
-  m_PrefabInstance: {fileID: 6077426039647037932}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &2074077817389037372 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5233112405309087440, guid: 29a4f6d0b942403448010a61786f4c99, type: 3}
-  m_PrefabInstance: {fileID: 6077426039647037932}
-  m_PrefabAsset: {fileID: 0}
---- !u!23 &2413516377518118547 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 8442510506162454399, guid: 29a4f6d0b942403448010a61786f4c99, type: 3}
   m_PrefabInstance: {fileID: 6077426039647037932}
   m_PrefabAsset: {fileID: 0}
 --- !u!23 &4009542263704084275 stripped
@@ -1179,9 +1173,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttachedPortal: {fileID: 0}
+  AttachedTutorial: {fileID: 0}
   HideObjects:
   - {fileID: 7416990232854521836}
-  - {fileID: 2074077817389037372}
+  - {fileID: 0}
   - {fileID: 1618616843730629347}
   - {fileID: 8958678400338643991}
   ConnectedMarkers: []
@@ -1190,6 +1185,8 @@ MonoBehaviour:
   PlaysNarratorAudio: 0
   AttachedNarratorAudio: {fileID: 4949826843317980934}
   SecondaryAudioClipAfterEngagementSpaceIsActivated: {fileID: 0}
+  IsFlowersWalkMarker: 0
+  IsPaperBurningWalkMarker: 0
 --- !u!114 &2457116731013132296
 MonoBehaviour:
   m_ObjectHideFlags: 0
