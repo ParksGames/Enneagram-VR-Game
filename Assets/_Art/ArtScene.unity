@@ -46840,6 +46840,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6043236645545938439, guid: 17a4c4d7f6963da45ac1e04178f421db, type: 3}
   m_PrefabInstance: {fileID: 1632569509}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1632569511 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7314051006638364370, guid: 17a4c4d7f6963da45ac1e04178f421db, type: 3}
+  m_PrefabInstance: {fileID: 1632569509}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1c386f68a0c30846a03b003136ffbda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1637492147
 GameObject:
   m_ObjectHideFlags: 0
@@ -53194,7 +53205,7 @@ MonoBehaviour:
   VideoMeshRenderer: {fileID: 54343877}
   FirePaperBurnParticles: {fileID: 1140580371}
   FirePaperBurnSound: {fileID: 1409417369}
-  StartWalkMarker: {fileID: 758134228}
+  StartWalkMarker: {fileID: 1632569511}
   ScreenFader: {fileID: 441087507}
   InteractionSpaceObjects:
   - {fileID: 544371745}
