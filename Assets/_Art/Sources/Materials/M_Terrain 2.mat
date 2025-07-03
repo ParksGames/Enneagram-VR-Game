@@ -356,6 +356,7 @@ Material:
     - _NormalShift: 0
     - _NormalThreshold: 0.2
     - _NormalWidth: 0
+    - _Normal_Intensity: 0.5
     - _NumLayersCount: 1
     - _Occlusion: 0
     - _OcclusionStrength: 1

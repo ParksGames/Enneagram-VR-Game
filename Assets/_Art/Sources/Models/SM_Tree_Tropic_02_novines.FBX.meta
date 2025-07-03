@@ -14,6 +14,16 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: MI_Tree_Tropic_FO
     second: {fileID: 2100000, guid: 50d1ddcdd0e31364d9e530e65ae8d93a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: 5e65a404a62996c44ba7105aabaed870, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.006
+    second: {fileID: 2100000, guid: 50d1ddcdd0e31364d9e530e65ae8d93a, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

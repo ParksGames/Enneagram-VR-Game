@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1713895964611172674
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: da4a73d17f4008b489ba85abfd20f561, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 23.624393
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: da4a73d17f4008b489ba85abfd20f561, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.8741169
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: da4a73d17f4008b489ba85abfd20f561, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -51.10034
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: da4a73d17f4008b489ba85abfd20f561, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: da4a73d17f4008b489ba85abfd20f561, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: da4a73d17f4008b489ba85abfd20f561, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: da4a73d17f4008b489ba85abfd20f561, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: da4a73d17f4008b489ba85abfd20f561, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: da4a73d17f4008b489ba85abfd20f561, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: da4a73d17f4008b489ba85abfd20f561, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8241564469622403833, guid: da4a73d17f4008b489ba85abfd20f561, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 1.7874321
+      objectReference: {fileID: 0}
+    - target: {fileID: -5280815296675882560, guid: da4a73d17f4008b489ba85abfd20f561, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 4.4071093
+      objectReference: {fileID: 0}
+    - target: {fileID: -4955984504008155081, guid: da4a73d17f4008b489ba85abfd20f561, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 3.5385082
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da4a73d17f4008b489ba85abfd20f561, type: 3}
+      propertyPath: m_Name
+      value: SM_WeepingWillow01_LOD
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: da4a73d17f4008b489ba85abfd20f561, type: 3}
+      propertyPath: m_FadeMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: da4a73d17f4008b489ba85abfd20f561, type: 3}
+      propertyPath: m_AnimateCrossFading
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: da4a73d17f4008b489ba85abfd20f561, type: 3}
+      propertyPath: m_LODs.Array.data[0].screenRelativeHeight
+      value: 0.89371604
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: da4a73d17f4008b489ba85abfd20f561, type: 3}
+      propertyPath: m_LODs.Array.data[1].screenRelativeHeight
+      value: 0.66492254
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: da4a73d17f4008b489ba85abfd20f561, type: 3}
+      propertyPath: m_LODs.Array.data[2].screenRelativeHeight
+      value: 0.44231352
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: da4a73d17f4008b489ba85abfd20f561, type: 3}
+      propertyPath: m_LODs.Array.data[3].screenRelativeHeight
+      value: 0.27544433
+      objectReference: {fileID: 0}
+    - target: {fileID: 7242711413905106887, guid: da4a73d17f4008b489ba85abfd20f561, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 2.6596901
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: da4a73d17f4008b489ba85abfd20f561, type: 3}
