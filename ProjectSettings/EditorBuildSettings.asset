@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/_Art/ArtScene.unity
     guid: 6149b0bc56bc41540917f17ac27bfbef
   - enabled: 1
-    path: Assets/_Art/ArtScene 2.unity
+    path: Assets/_Art/Scenes/ArtScene 2.unity
     guid: fd58d901f19c2c14f9811e372006fc79
   - enabled: 0
     path: Assets/Scenes/Start.unity
