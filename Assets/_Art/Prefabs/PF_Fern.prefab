@@ -14,7 +14,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1878592323720135041
 Transform:
@@ -24,14 +24,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6811244728068470092}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.74528545, y: -0.12904182, z: -0.20777604, w: 0.6202636}
+  m_LocalRotation: {x: -0.745287, y: -0.12903881, z: -0.20777546, w: 0.62026256}
   m_LocalPosition: {x: 8.68, y: -0.1, z: -2.21}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.55048, y: 0.55048007, z: 0.5504799}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 185017358026412494}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -101.994, y: -46.057007, z: 18.345993}
 --- !u!1001 &368144203853559333
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -87,6 +87,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 09c10f225a07ed74d85f0af4d0bf0193, type: 3}
       propertyPath: m_Name
       value: SM_Fern_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 09c10f225a07ed74d85f0af4d0bf0193, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
