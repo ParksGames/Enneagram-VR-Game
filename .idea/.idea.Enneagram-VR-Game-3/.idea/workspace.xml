@@ -5,89 +5,199 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7f83f85-6b8d-439c-af97-0f0b7c6f6452" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Stylized-Nature/Bark_TwistedTree 1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Stylized-Nature/Bark_TwistedTree 1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Stylized-Nature/Flowers 1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Stylized-Nature/Flowers 1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Stylized-Nature/Flowers 2.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Stylized-Nature/Flowers 2.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Prefabs/PF_Fern.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Prefabs/PF_Fern.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Prefabs/PF_Pedestal3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Prefabs/PF_Pedestal3.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Enneagram-VR-Game-3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Enneagram-VR-Game-3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Stylized-Nature/Bark_TwistedTree 1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Stylized-Nature/Bark_TwistedTree 1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Stylized-Nature/Leaves.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Stylized-Nature/Leaves.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Prefabs/PF_Tree_04.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Prefabs/PF_Tree_04.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Prefabs/PF_Tree_Tropic_02.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Prefabs/PF_Tree_Tropic_02.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Prefabs/SM_WeepingWillow01_LOD.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Prefabs/SM_WeepingWillow01_LOD.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Art/Scenes/ArtScene 2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Scenes/ArtScene 2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/010_Mossy_Tree_qbtt7_8K_inst 1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/010_Mossy_Tree_qbtt7_8K_inst 1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/Bark_TwistedTree 2.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/Bark_TwistedTree 2.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/Bark_TwistedTree 3.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/Bark_TwistedTree 3.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/Bark_TwistedTree 4.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/Bark_TwistedTree 4.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/Foliage/M_Fern_01_FO.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/Foliage/M_Fern_01_FO.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/Leaves.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/Leaves.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/Leaves_HeroTree_01.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/Leaves_HeroTree_01.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/Leaves_HeroTree_02.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/Leaves_HeroTree_02.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/Leaves_HeroTree_03.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/Leaves_HeroTree_03.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/MI_Bush 2.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/MI_Bush 2.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/MI_Bush.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/MI_Bush.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/MI_Mountain_Eroded_03.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/MI_Mountain_Eroded_03.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/MI_Plate_Rock.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/MI_Plate_Rock.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/MI_TreeBark02_1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/MI_TreeBark02_1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/MI_TreeBranch_01.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/MI_TreeBranch_01.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/MI_Tree_Tropic_01_TR.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/MI_Tree_Tropic_01_TR.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/MI_Tree_Tropic_FO.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/MI_Tree_Tropic_FO.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/MI_WeepingWillowBranch01.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/MI_WeepingWillowBranch01.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/MI_vines_01.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/MI_vines_01.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/M_Emissive 1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/M_Emissive 1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/M_Emissive 2.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/M_Emissive 2.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/M_Emissive.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/M_Emissive.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/M_FireBranch.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/M_FireBranch.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/M_Log_01.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/M_Log_01.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/M_Rock.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/M_Rock.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/M_Screen 2.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/M_Screen 2.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/M_Terrain 2.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/M_Terrain 2.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/M_Terrain 3.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/M_Terrain 3.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/Rock_Flat_01.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/Rock_Flat_01.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/T_Plains_FloorsTrim_D.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/T_Plains_FloorsTrim_D.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/T_Plains_Terrain_Floors01_D.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/T_Plains_Terrain_Floors01_D.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/Water_mat_01 1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/NotOrganized/Water_mat_01 1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Models/MI_dynamicFoilage_bright.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Models/MI_dynamicFoilage_bright.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Scripts/Editor/AssetUsageAnalysing/MaterialAnalyzerWindow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Scripts/Editor/AssetUsageAnalysing/MaterialAnalyzerWindow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Settings/PP_Scene.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Settings/PP_Scene.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Font/CrimsonText-SemiBold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Font/CrimsonText-SemiBold SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/Organized/M_Ivy_02 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/Organized/M_Ivy_02 1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/Organized/M_Vines_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Materials/Organized/M_Vines_01.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Models/NotOrganized/Root.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Models/NotOrganized/Root.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Models/NotOrganized/SM_TreeBranch_03a.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Models/NotOrganized/SM_TreeBranch_03a.FBX.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Textures/NotOrganized/Foliage 1/M_Ivy_02 1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Textures/NotOrganized/Foliage 1/M_Ivy_02 1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Textures/NotOrganized/Foliage 1/M_Ivy_02.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Textures/NotOrganized/Foliage 1/M_Ivy_02.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/ThirdParty/VisionarySpaces/MagicalGates/Resources/Materials/Pedestal Ornament/M_PedestalOrnaments_02.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/ThirdParty/VisionarySpaces/MagicalGates/Resources/Materials/Pedestal Ornament/M_PedestalOrnaments_02.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Models/NotOrganized/SM_TreeBranch_03a.FBX" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Models/NotOrganized/SM_TreeBranch_03a.FBX" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Models/NotOrganized/SM_Tree_Tropic_02.FBX" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Models/NotOrganized/SM_Tree_Tropic_02.FBX" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Models/NotOrganized/SM_Tree_Tropic_02_novines.FBX" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Models/NotOrganized/SM_Tree_Tropic_02_novines.FBX" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Models/NotOrganized/SM_WeepingWillow01_1.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Models/NotOrganized/SM_WeepingWillow01_1.fbx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Models/NotOrganized/Tree_04.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Models/NotOrganized/Tree_04.fbx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Textures/NotOrganized/Landscape/SandStone_Normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Textures/NotOrganized/Landscape/SandStone_Normal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Textures/NotOrganized/Landscape/T_GroundRock_BC.PNG.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Textures/NotOrganized/Landscape/T_GroundRock_BC.PNG.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Textures/NotOrganized/Landscape/T_Ground_Clovers_Near_01_BC.PNG.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Textures/NotOrganized/Landscape/T_Ground_Clovers_Near_01_BC.PNG.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Textures/NotOrganized/Landscape/T_Ground_Clovers_Near_01_N.PNG.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Textures/NotOrganized/Landscape/T_Ground_Clovers_Near_01_N.PNG.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Textures/NotOrganized/Plains_Floors/T_Plains_FloorsTrim_D.PNG.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Textures/NotOrganized/Plains_Floors/T_Plains_FloorsTrim_D.PNG.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Textures/NotOrganized/Plains_Floors/T_Plains_Terrain_Floors01_D.PNG.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Textures/NotOrganized/Plains_Floors/T_Plains_Terrain_Floors01_D.PNG.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Textures/NotOrganized/T_Bark.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Textures/NotOrganized/T_Bark.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Textures/NotOrganized/T_Bark_E.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Textures/NotOrganized/T_Bark_E.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Textures/NotOrganized/T_Fol_Leafs_BC.PNG.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Textures/NotOrganized/T_Fol_Leafs_BC.PNG.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Textures/NotOrganized/T_Vines_01_D.PNG.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Textures/NotOrganized/T_Vines_01_D.PNG.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Textures/NotOrganized/WeepingWillow/MI_TreeBark02_1_BaseColor_0.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Textures/NotOrganized/WeepingWillow/MI_TreeBark02_1_BaseColor_0.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (1).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (1).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (10).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (10).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (100).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (100).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (101).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (101).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (102).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (102).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (103).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (103).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (104).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (104).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (105).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (105).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (106).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (106).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (107).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (107).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (108).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (108).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (109).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (109).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (11).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (11).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (110).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (110).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (111).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (111).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (112).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (112).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (113).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (113).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (114).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (114).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (115).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (115).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (116).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (116).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (117).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (117).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (118).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (118).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (119).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (119).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (12).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (12).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (120).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (120).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (121).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (121).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (122).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (122).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (123).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (123).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (124).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (124).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (125).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (125).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (126).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (126).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (127).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (127).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (128).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (128).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (129).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (129).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (13).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (13).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (130).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (130).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (131).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (131).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (132).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (132).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (133).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (133).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (134).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (134).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (135).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (135).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (136).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (136).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (137).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (137).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (138).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (138).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (139).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (139).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (14).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (14).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (140).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (140).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (141).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (141).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (142).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (142).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (143).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (143).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (144).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (144).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (145).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (145).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (146).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (146).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (147).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (147).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (148).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (148).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (149).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (149).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (15).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (15).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (150).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (150).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (151).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (151).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (152).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (152).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (153).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (153).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (154).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (154).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (155).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (155).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (156).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (156).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (157).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (157).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (158).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (158).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (159).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (159).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (16).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (16).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (160).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (160).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (161).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (161).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (162).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (162).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (163).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (163).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (164).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (164).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (17).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (17).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (18).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (18).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (19).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (19).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (2).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (2).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (20).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (20).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (21).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (21).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (22).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (22).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (23).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (23).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (24).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (24).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (25).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (25).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (26).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (26).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (27).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (27).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (28).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (28).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (29).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (29).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (3).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (3).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (30).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (30).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (31).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (31).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (32).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (32).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (33).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (33).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (34).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (34).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (35).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (35).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (36).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (36).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (37).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (37).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (38).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (38).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (39).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (39).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (4).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (4).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (40).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (40).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (41).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (41).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (42).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (42).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (43).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (43).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (44).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (44).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (45).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (45).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (46).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (46).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (47).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (47).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (48).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (48).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (49).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (49).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (5).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (5).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (50).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (50).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (51).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (51).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (52).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (52).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (53).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (53).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (54).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (54).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (55).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (55).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (56).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (56).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (57).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (57).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (58).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (58).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (59).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (59).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (6).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (6).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (60).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (60).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (61).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (61).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (62).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (62).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (63).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (63).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (64).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (64).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (65).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (65).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (66).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (66).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (67).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (67).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (68).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (68).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (69).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (69).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (7).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (7).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (70).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (70).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (71).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (71).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (72).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (72).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (73).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (73).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (74).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (74).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (75).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (75).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (76).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (76).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (77).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (77).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (78).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (78).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (79).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (79).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (8).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (8).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (80).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (80).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (81).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (81).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (82).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (82).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (83).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (83).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (84).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (84).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (85).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (85).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (86).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (86).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (87).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (87).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (88).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (88).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (89).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (89).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (9).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (9).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (90).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (90).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (91).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (91).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (92).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (92).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (93).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (93).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (94).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (94).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (95).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (95).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (96).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (96).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (97).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (97).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (98).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (98).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (99).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sources/Videos/Trust/trust (99).png.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

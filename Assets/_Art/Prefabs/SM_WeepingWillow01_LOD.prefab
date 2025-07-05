@@ -50,19 +50,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8241564469622403833, guid: da4a73d17f4008b489ba85abfd20f561, type: 3}
       propertyPath: m_ScaleInLightmap
-      value: 0.01787432
+      value: 0.8041101
       objectReference: {fileID: 0}
     - target: {fileID: -5423254955063021526, guid: da4a73d17f4008b489ba85abfd20f561, type: 3}
       propertyPath: m_ScaleInLightmap
-      value: 0.01
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -5280815296675882560, guid: da4a73d17f4008b489ba85abfd20f561, type: 3}
       propertyPath: m_ScaleInLightmap
-      value: 0.02842272
+      value: 0.5592119
       objectReference: {fileID: 0}
     - target: {fileID: -4955984504008155081, guid: da4a73d17f4008b489ba85abfd20f561, type: 3}
       propertyPath: m_ScaleInLightmap
-      value: 0.025826728
+      value: 0.64719933
       objectReference: {fileID: 0}
     - target: {fileID: -1342660134553917674, guid: da4a73d17f4008b489ba85abfd20f561, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -86,19 +86,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4742473837712756890, guid: da4a73d17f4008b489ba85abfd20f561, type: 3}
       propertyPath: m_LODs.Array.data[0].screenRelativeHeight
-      value: 0.89371604
+      value: 0.83163923
       objectReference: {fileID: 0}
     - target: {fileID: 4742473837712756890, guid: da4a73d17f4008b489ba85abfd20f561, type: 3}
       propertyPath: m_LODs.Array.data[1].screenRelativeHeight
-      value: 0.5498644
+      value: 0.5855933
       objectReference: {fileID: 0}
     - target: {fileID: 4742473837712756890, guid: da4a73d17f4008b489ba85abfd20f561, type: 3}
       propertyPath: m_LODs.Array.data[2].screenRelativeHeight
-      value: 0.32283413
+      value: 0.41660395
       objectReference: {fileID: 0}
     - target: {fileID: 4742473837712756890, guid: da4a73d17f4008b489ba85abfd20f561, type: 3}
       propertyPath: m_LODs.Array.data[3].screenRelativeHeight
-      value: 0.17764205
+      value: 0.2622603
       objectReference: {fileID: 0}
     - target: {fileID: 5219513694076706478, guid: da4a73d17f4008b489ba85abfd20f561, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -118,7 +118,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7242711413905106887, guid: da4a73d17f4008b489ba85abfd20f561, type: 3}
       propertyPath: m_ScaleInLightmap
-      value: 0.021994576
+      value: 0.74160177
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

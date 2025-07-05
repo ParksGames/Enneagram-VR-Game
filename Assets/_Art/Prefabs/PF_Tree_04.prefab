@@ -5156,7 +5156,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 7081000909599678898, guid: 3ba4f420627a57f4ab174688e009e8a5, type: 2}
+  - {fileID: 2100000, guid: 01c76106ba255f04885e6e5934056ec3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5201,7 +5201,7 @@ MonoBehaviour:
   m_text: Sacred Trust
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3ba4f420627a57f4ab174688e009e8a5, type: 2}
-  m_sharedMaterial: {fileID: 7081000909599678898, guid: 3ba4f420627a57f4ab174688e009e8a5, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 01c76106ba255f04885e6e5934056ec3, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
