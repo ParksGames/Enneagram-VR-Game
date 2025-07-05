@@ -97,7 +97,7 @@ Material:
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
     - _Cull: 0
-    - _Cutoff: 0.575
+    - _Cutoff: 0.377
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
@@ -123,7 +123,7 @@ Material:
     m_Colors:
     - _BaseColor: {r: 0.7475933, g: 0.9514825, b: 0.77901703, a: 1}
     - _Color: {r: 0.7475933, g: 0.9514825, b: 0.77901703, a: 1}
-    - _EmissionColor: {r: 0.08328876, g: 0.12941177, b: 0.003921565, a: 1}
+    - _EmissionColor: {r: 0.0404312, g: 0.0404312, b: 0.0404312, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
